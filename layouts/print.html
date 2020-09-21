@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
+
+    @yield('css')
+    <style>
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<?php
+if (Request::segment(1) == 'sp') $skin = 'skin-green';
+else if (Request::segment(1) == 'staff') $skin = 'skin-yellow';
+else if (Request::segment(1) == 'agency') $skin = 'skin-red';
+else if (Request::segment(1) == 'management') $skin = 'skin-blue';
+else $skin = 'skin-purple';
+?>
+
+<body class="hold-transition">
+
+<div class="wrapper">
+
+@yield('body')
+
+@yield('footer')
+
+
+</div>
+
+
+</body>
+</html>

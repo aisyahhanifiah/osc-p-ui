@@ -1,0 +1,229 @@
+<?php include "header-sp.php" ?>
+<?php include "sidebar-sp.php" ?>
+
+<div class="page-wrapper">
+
+
+    <div class="container-fluid">
+        <h3 class="big-word mb-3">Maklumat Projek</h3>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/home">Laman Utama</a></li>
+            <!-- <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/sub-groups/project">Projek</a></li> -->
+            <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/sub-groups/project/list">Senarai Projek</a></li>
+            <li class="breadcrumb-item active">Maklumat Projek</li>
+        </ol>
+        <style>
+            .arrow-steps .step {
+            font-size: 14px;
+            text-align: center;
+            color: #666;
+            cursor: default;
+            margin: 0 3px;
+            padding: 10px 10px 10px 30px;
+            min-width: 180px;
+            float: left;
+            position: relative;
+            background-color: #d9e3f7;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          transition: background-color 0.2s ease;
+        }
+
+        .arrow-steps .step:after,
+        .arrow-steps .step:before {
+            content: " ";
+            position: absolute;
+            top: 0;
+            right: -17px;
+            width: 0;
+            height: 0;
+            border-top: 19px solid transparent;
+            border-bottom: 17px solid transparent;
+            border-left: 17px solid #d9e3f7;
+            z-index: 2;
+          transition: border-color 0.2s ease;
+        }
+
+        .arrow-steps .step:before {
+            right: auto;
+            left: 0;
+            border-left: 17px solid #fff;
+            z-index: 0;
+        }
+
+        .arrow-steps .step:first-child:before {
+            border: none;
+        }
+
+        .arrow-steps .step:first-child {
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+
+        .arrow-steps .step span {
+            position: relative;
+        }
+
+        .arrow-steps .step span:before {
+            opacity: 0;
+            content: "✔";
+            position: absolute;
+            top: -2px;
+            left: -20px;
+        }
+
+        .arrow-steps .step.done span:before {
+            opacity: 1;
+            -webkit-transition: opacity 0.3s ease 0.5s;
+            -moz-transition: opacity 0.3s ease 0.5s;
+            -ms-transition: opacity 0.3s ease 0.5s;
+            transition: opacity 0.3s ease 0.5s;
+        }
+
+        .arrow-steps .step.current {
+            color: #fff;
+            background-color: #23468c;
+        }
+
+        .arrow-steps .step.current a{
+            color: #fff;
+        }
+
+        .arrow-steps .step.current:after {
+            border-left: 17px solid #23468c;
+        }
+
+        .clearfix:after {
+            clear: both;
+            content: "";
+            display: block;
+            height: 0;
+        }
+        </style>
+
+        <div class="arrow-steps clearfix">
+            <div class="step "> <span> 1. Pendaftaran <br></span> </div>
+            <div class="step "> <span> 2. Kelulusan<br></span> </div>
+            <div class="step "> <span> 3. Pemberitahuan Mula Kerja<br></span></div>
+            <div class="step "> <a href=""><span> 4. Pemeriksaan Interim<br></span></a> </div>
+            <div class="step "> <a href=""><span> 5. Pemeriksaan Akhir CCC</span></a> </div>
+            <div class="step "> <a href=""><span> 6. Pendepositan CCC</span></a> </div>
+        </div>
+        <br>
+        <ul class="nav nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link " href="maklumatprojek-sp-p4.php">Maklumat Am</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="notisbertulis.php">Notis/Arahan Bertulis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="maklumatfi.php">Maklumat Fi & Bil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
+            </li>
+        </ul>
+        <div class="card">
+            <div class="alert alert-secondary">
+                            <br>
+            <h4 class="panel-title ml-3">
+                <span style="text-decoration: underline">Senarai Bil</span>
+            </h4>
+
+            <div id="bills_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="bills_length"><label>Papar <select name="bills_length" aria-controls="bills" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="bills_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="bills"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
+                <thead style="background-color: #03A9F4">
+                <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Bil</th><th class="text-center sorting_disabled" rowspan="1" colspan="1">Tajuk Bil</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Amaun (MYR)</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Status</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nombor Bil</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Pembayaran</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">&nbsp;</th></tr></thead>
+                <tbody>
+                        
+                    <tr role="row" class="odd">
+                        <td class="text-center">1</td>
+                        <td class="text-center"><div style="display:none">20190724</div>24-07-2019</td>
+                        <td class="text-left">Fi Ketidakpatuhan</td>
+                        <td class="text-center">48,540.00</td>
+                        <td class="text-center">Bayaran Penuh</td>
+                        <td class="text-center">MPKj20190724001 </td>
+                        <td class="text-center"> - </td>
+                        <td class="text-center"><button title="Muat turun Bil"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                        <td width="7%" class="text-center">
+                                            Bil Selesai
+                                        </td>
+                    </tr></tbody>
+            </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="bills_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (1 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="bills_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="bills_previous"><a href="#" aria-controls="bills" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="bills" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="bills_next"><a href="#" aria-controls="bills" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
+
+            <br>
+            <h4 class="panel-title ml-3">
+                <span style="text-decoration: underline">Senarai Resit Pembayaran</span>
+            </h4>
+            <table id="receipts" class="table table-bordered table-striped dataTable" style="font-weight: bolder">
+                <thead style="background-color: #03A9F4">
+                <tr>
+                    <th width="5%" class="text-center sorting_disabled">#</th>
+                    <th width="20%" class="text-center sorting_disabled">Tarikh &amp; Masa Bayaran</th>
+                    <th width="30%" class="text-center sorting_disabled">Nombor Bil</th>
+                    <th width="30%" class="text-center sorting_disabled">Nombor Resit</th>
+                    <th width="15%" class="text-center sorting_disabled">Amaun</th>
+                    <th width="5%" class="text-center">Fail</th>
+                </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                        <td class="text-center">1</td>
+                        <td class="text-center">24 Jul 2019 16:02:25</td>
+                        <td class="text-center">MPKj20190724001</td>
+                        <td class="text-center">40002251</td>
+                        <td class="text-center">48,540.00</td>
+                        <td class="text-center"><button title="Muat turun Resit"><a href="/sp/bill/2/printResit" target="_blank"><i class="uil uil-file-download-alt"></i></a></button></td>
+                    </tr>
+                    </tbody>
+            </table>
+            <div id="methodModal" class="modal fade" role="dialog" aria-hidden="true" aria-modal="true" aria-labelledby="myScaleModalLabel">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sila Pilih Kaedah Pembayaran</h4>
+                        </div>
+                        <div class="modal-body">
+                                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <form method="post" action="http://127.0.0.1:8000/sp/payment/mpgs/confirm"><input type="hidden" name="_token" value="DrbpwDyhKA9aNxLXvwUL7j9L9mLeZhJ6qUQsZo2n"><button class="btn btn-primary">Kad Kredit/Debit (Merchant RHB)</button><input type="hidden" name="bill_id" id="bill_id_1" value=""></form>
+                                </div>
+                            </div>
+                            <br>
+                                                                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <form method="post" action="http://127.0.0.1:8000/sp/payment/fpx/migs/confirm"><input type="hidden" name="_token" value="DrbpwDyhKA9aNxLXvwUL7j9L9mLeZhJ6qUQsZo2n"><button class="btn btn-primary">Kad Kredit/Debit (MIGS)</button><input type="hidden" id="bill_id_3" name="bill_id" value="29"></form>
+                                </div>
+                            </div>
+                            <br>
+                                                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <form method="post" action="http://127.0.0.1:8000/sp/payment/fpx/snap/confirm"><input type="hidden" name="_token" value="DrbpwDyhKA9aNxLXvwUL7j9L9mLeZhJ6qUQsZo2n"><button class="btn btn-primary">Pemindahan Antara Bank (FPX)</button><input type="hidden" id="bill_id_5" name="bill_id" value="29"></form>
+                                </div>
+                            </div>
+                            <br>
+                                                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <form method="post" action="http://127.0.0.1:8000/sp/payment/epbtpay/confirm"><input type="hidden" name="_token" value="DrbpwDyhKA9aNxLXvwUL7j9L9mLeZhJ6qUQsZo2n"><button class="btn btn-primary">EPBTPay Gateway</button><input type="hidden" id="bill_id_6" name="bill_id" value="29"></form>
+                                </div>
+                            </div>
+                                        </div>
+                        <div class="modal-footer text-center">
+                            <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    </div>
+        </div>
+    </div>
+    
+
+
+    <?php include "footer.php" ?>
+

@@ -1,0 +1,528 @@
+
+
+<body>
+<div id="main-wrapper" class="d-flex flex-column">
+
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+
+    
+    <header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md sp">
+        <div class="navbar-header">
+            <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                        class="uil uil-bars"></i></a>
+            <a class="navbar-brand" href="/"><img src="kpkt.png" alt="" style="width: 35px;"
+                                                  class="mr-2">
+                                    <span class="logo-text"><strong>Pemohon</strong></span>
+                
+            </a>
+            <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+               data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+               aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
+            <ul class="navbar-nav float-left mr-auto">
+                <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light"
+                                                          href="javascript:void(0)" data-sidebartype="mini-sidebar"><i
+                                class="uil uil-bars font-24 text-black-50"></i></a></li>
+            </ul>
+            <ul class="navbar-nav float-right">
+                <li class="navbar-brand mt-3"><span class="logo-text" style="padding-top:0.1rem"><strong>ABDUL HAMID BIN AKUB</strong></span></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href=""
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class='uil uil-user-square display-7 text-primary'></i></a>
+                    <div class="dropdown-menu dropdown-menu-right user-dd animated" style="min-width: 0px;">
+
+                        <a class="dropdown-item"
+                           href="http://165.22.247.174/sp/profile">
+                            <i class='uil uil-cog  m-r-5 m-l-2'></i> Kemaskini Akaun
+                        </a>
+                        <a class="dropdown-item"
+                           onclick="event.preventDefault();document.getElementById('logout-form').submit();"
+                           style="cursor: pointer"><i class="uil uil-exit m-r-5 m-l-2"></i> Log Keluar</a>
+                        <form id="logout-form" action="http://165.22.247.174/sp/logout" method="POST" style="display: none;">
+                            <input type="hidden" name="_token" value="VDhDv46n1AeFVaVPnfW1Ehdu80YcM5RyDidPznQ1">                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <aside class="left-sidebar" data-sidebarbg="skin6">
+
+        <div class="scroll-sidebar">
+
+            <nav class="sidebar-nav">
+
+                <ul id="sidebarnav">
+
+                    <li class="sidebar-item selected">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false" href="http://165.22.247.174/sp/home">
+                            <i class="uil uil-web-grid-alt"></i><span class="hide-menu">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/forms" aria-expanded="false">
+                            <i class="uil uil-files-landscapes"></i><span class="hide-menu">Borang Permohonan</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/draft/list" aria-expanded="false">
+                            <i class="uil uil-document-layout-left"></i><span class="hide-menu">Senarai Deraf</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/application/list" aria-expanded="false">
+                            <i class="uil uil-files-landscapes-alt"></i><span class="hide-menu">Senarai Permohonan</span>
+                        </a>
+                    </li>
+                    <!--<li class="sidebar-item ">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/reports" aria-expanded="false">
+                            <i class="uil uil-file-bookmark-alt"></i><span class="hide-menu">Laporan Projek</span>
+                        </a>
+                    </li>-->
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link has-arrow waves-effect waves-dark " href="javascript:void(0)" aria-expanded="false"><i class="fas fa-file-pdf"></i><span class="hide-menu">Manual</span></a>
+                        <ul aria-expanded="false" class="collapse first-level ">
+                            <li class="sidebar-item"><a href="http://165.22.247.174/manual/MANUAL_PENGGUNA_SP(KM)_OSC3PLUS_KPKT_VER01_final.pdf" class="sidebar-link" target="_blank"><i class="uil uil-circle"></i><span class="hide-menu">Manual SP (KM) v1.0</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        <form action="/sp/search" method="get" class="sidebar-form hide-xs">
+                            <div class="input-group">
+                                <input type="text" name="text" class="form-control" placeholder="Carian Permohonan" value="" required>
+          <span class="input-group-btn">
+          <button type="submit" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+        </span>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+
+
+            </nav>
+
+        </div>
+
+    </aside>
+
+    <div class="page-wrapper">
+
+        
+
+        <div class="container-fluid">
+            
+    <h3 class="big-word mb-3">Dashboard</h3>
+                    <div class="col-lg-12 col-md-12 alert-warning">
+            <strong>PERHATIAN!</strong><br>Permohonan MPKJ-KM20190814-001 tidak lengkap. Setelah semakan dokumen dibuat, terdapat dokumen yang tidak mematuhi senarai semak, sila upload semula : 1. Surat kebenaran gadai bank - tidak selaras dengan permohonan yang di mohon - edit tarikh??
+        </div>
+        <br>
+            <div class="col-lg-12 col-md-12 alert-warning">
+            <strong>PERHATIAN!</strong><br>Permohonan MPSEP-KM20200813-005 tidak lengkap. - Sila muat naik surat permohonan rasmi kepada IWK, JAS &amp; LUAS.
+- Sila muat naik borang kiraan fi yang telah lengkap diisi.
+- Sila muat naik pelan susunatur yang telah disahkan pemilik / pemaju &amp; jururancang (PDF).
+- Sila muat naik gambar tapak.
+- Sila muat naik pelan akui.
+- SILA MUAT NAIK PELAN KERJA TANAH YANG LENGKAP BESERTA KERATAN RENTAS DAN PELAN BUTIRAN YANG TELAH DISAHKAN PEMILIK / PEMAJU &amp;JURUTERA.
+- Sila muat naik laporan kerja tanah yang telah disahkan oleh jurutera.
+- Sila muat naik laporan MASMA yang telah disahkan oleh jurutera.
+- Sila muat naik salinan kad pengenalan pemilik/pemaju.
+- Sila muat naik anggaran beban bekalan elektrik.
+- Sila muat naik anggaran beban bekalan air.
+- Sila muat naik Borang Teknikal Bekalan Air.
+- Sila muat naik salinan surat iringan dari jurutera kepada IWK.
+- Sila muat naik borang WSIA/PDC/1 yang telah lengkap diisi.
+- Sila muat naik laporan kejuruteraan pembentungan bagi pembangunan lebih daripada 30 unit atau 150 PE
+- Sila muat naik salinan surat perlantikan perunding.
+- Sila muat naik salinan surat ulasan daripada pemberi perkhidmatan telekomunikasi.
+- Sila muat naik salinan borang kembaran A PTD yang telah diulas.
+- Sila muat naik Borang ANNEX A (Senarai Semak Kebenaran Merancang)
+- Sila berhubung dengan pihak OSC setelah pihak tuan / puan mengemaskini ulasan untuk tujuan semakan semula (03-8319 0285 / 286)
+        </div>
+        <br>
+            <div class="col-lg-12 col-md-12 alert-warning">
+            <strong>PERHATIAN!</strong><br>Permohonan MPKJ-KM20200724-003 tidak lengkap. PERHATIAN!
+Setelah semakan dibuat, terdapat beberapa dokumen tidak lengkap mematuhi senarai semak, sila upload semula : 
+
+1. Borang semakan urusetia osc - lengkapkan no tel
+2. Surat permohonan JPSPPA dan dokumen JPSPPA, Borang serta pelan kebuk sampah
+3. Surat kebenaran bank pemberigadaian
+4. Gambar sekitar
+5. Surat dari pemberi perkhidmatan rangkaian
+6. Salinan bil semasa tnb 3 bulan terkini
+        </div>
+        <br>
+            <div class="col-lg-12 col-md-12 alert-warning">
+            <strong>PERHATIAN!</strong><br>Permohonan MPKL-KM20200810-001 tidak lengkap. Permohonan lengkap. Sila kemukakan dokumen ke kaunter OSC dalam masa 3 hari (Isnin - Khamis sahaja)
+        </div>
+        <br>
+    
+    <h4 class="mb-3">Senarai Permohonan Draf & Tidak Lengkap</h4>
+    <div class="card">
+        <div class="card-body table-responsive">
+            <div class="btn-group">
+                <button class="btn btn-light filter-by-status" data-status="DRAFT">Draf</button>
+                <button class="btn btn-light filter-by-status" data-status="INCOMPLETE">Tidak Lengkap</button>
+            </div>
+            <table class="table table-striped table-borderless table-condensed" >
+                <thead class="bg-dark text-white">
+                <tr>
+                    <th class="text-center" style="width: 20%">Jenis</th>
+                    <th class="text-center" style="width: 15%">No. Permohonan</th>
+                    <th class="text-center">Tajuk Permohonan</th>
+                    <th class="text-center w-70px">Tarikh</th>
+                    <th class="text-center" style="width: 10%">Status</th>
+                    <th style="width: 10%"></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+        </div>
+
+        <footer class="footer text-center" style="display:none">
+    Dibangunkan bersama oleh Perbadanan Putrajaya dan <a href="https://basicinception.com" style="color:#fff">Basic Inception</a>.
+</footer>
+    </div>
+
+
+</div>
+
+
+<script src="js/app.js?id=6d4f7650cf88c1a97d34"></script>
+<script src="js/theme.js"></script>
+<script src="js/resumable.js"></script>
+<script src="js/form-manipulation.js"></script>
+<script src="js/calculate-field.js?v=1.1"></script>
+<script src="js/bootbox.min.js"></script>
+<script src="plugins/daterangepicker/moment.min.js"></script>
+<script src="js/bootstrap-datetimepicker.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<script>
+    // Configure/customize these variables.
+    var showChar = 180; // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Info penuh >";
+    var lesstext = "Info kurang";
+
+    $('.more').each(function () {
+        var content = $(this).html();
+
+        if (content.length > showChar) {
+
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+
+            var html = c + '<span class="moreellipses">' + ellipsestext + '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink no-loading">' + moretext + '</a></span>';
+
+            $(this).html(html);
+        }
+    });
+
+    $(".morelink").click(function () {
+        if ($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+
+    // Configure/customize these variables.
+    var showChar2 = 200; // How many characters are shown by default
+    var ellipsestext2 = "...";
+    var moretext2 = "Info penuh >";
+    var lesstext2 = "Info kurang";
+
+    $('.more2').each(function () {
+        var content = $(this).html();
+
+        if (content.length > showChar2) {
+
+            var c = content.substr(0, showChar2);
+            var h = content.substr(showChar2, content.length - showChar2);
+
+            var html = c + '<span class="moreellipses">' + ellipsestext2 + '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink2 no-loading">' + moretext2 + '</a></span>';
+
+            $(this).html(html);
+        }
+    });
+
+    $(".morelink2").click(function () {
+        if ($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext2);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext2);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var inputs = document.getElementsByTagName("INPUT");
+        var selects = document.getElementsByTagName("SELECT");
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].oninvalid = function(e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    e.target.setCustomValidity("Isi maklumat yang betul di kotak ini.");
+                }
+            };
+            inputs[i].oninput = function(e) {
+                e.target.setCustomValidity("");
+            };
+        }
+
+        for (var i = 0; i < selects.length; i++) {
+            selects[i].oninvalid = function(e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    e.target.setCustomValidity("Sila buat pilihan dari senarai ini.");
+                }
+            };
+            selects[i].oninput = function(e) {
+                e.target.setCustomValidity("");
+            };
+        }
+    })
+    $('#datatable').dataTable({
+        "lengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
+        "pageLength": 50,
+        "aaSorting": []
+    });
+    $('[data-toggle="tooltip"]').tooltip();
+    $(".preloader").fadeOut();
+    $(".select2").select2();
+    $("#fontplus").click(function () {
+        var fontSize = parseInt($('body').css("font-size"));
+        fontSize = fontSize + 1 + "px";
+        $('body').css({
+            'font-size': fontSize
+        });
+    });
+    $("#fontminus").click(function () {
+        var fontSize = parseInt($('body').css("font-size"));
+        fontSize = fontSize - 1 + "px";
+        $('body').css({
+            'font-size': fontSize
+        });
+    });
+    $("#fontdefault").click(function () {
+        var fontSize = parseInt($('body').css("font-size"));
+        fontSize = fontSize - 1 + "px";
+        $('body').css({
+            'font-size': ''
+        });
+    });
+
+    $('.datetimepicker').datetimepicker({
+        stepping:1,
+        format: 'DD-MM-YYYY HH:mm',
+        maxDate: new Date(),
+        defaultDate: new Date(),
+    });
+
+    $('.datepicker').datepicker({
+        autoclose: true,
+        todayHighlight: true,
+        format: 'dd-mm-yyyy'
+    });
+    $('.monthpicker').datepicker({
+        autoclose: true,
+        todayHighlight: true,
+        format: 'mm-yyyy',
+        viewMode: "months",
+        minViewMode: "months"
+    });
+
+    $('input.date-range').daterangepicker({
+        //autoUpdateInput: false,
+        locale: {
+            cancelLabel: 'Clear',
+            format: 'DD-MM-YYYY',
+            separator: ' : '
+        }
+    });
+
+    var msg = '';
+    var color = '';
+
+    toastr.options = {
+        // "closeButton": true,
+        "positionClass": "toast-bottom-right",
+        "timeOut": "3000",
+        "extendedTimeOut": "3000",
+    };
+
+    if (msg) {
+        switch (color) {
+            case 'success':
+                toastr.success(msg);
+                break;
+            case 'info':
+                toastr.info(msg);
+                break;
+            case 'warning':
+                toastr.warning(msg);
+                break;
+            case 'error':
+                toastr.error(msg);
+                break;
+        }
+    }
+
+</script>
+        
+    <script>
+
+    </script>
+
+    <script>
+        var datatable;
+
+        $('.filter-by-status').click(function (){
+        	  $('.filter-by-status').removeClass('active');
+        	  $(this).addClass('active');
+            datatable.draw();
+        });
+        $(function() {
+            datatable = $('#datatable-draft').DataTable({
+                processing: true,
+                serverSide: true,
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.10.19/i18n/Malay.json'
+                },
+                ajax: {
+                	url: '/sp/applications/draft',
+                  data: {
+	                  'statusFilter': function() {
+		                  var statusFilter = $('.filter-by-status.active').data('status');
+		                  return statusFilter;
+                    }
+                	}
+                },
+                order: [
+                    [ 3, "desc" ]
+                ],
+                columns: [
+                    {
+                        className: 'text-left',
+                        render: function (data, type, row) {
+                            return "<b>"+row.type+"</b><br>"+row.form;
+                        }
+                    },
+                    {className:'text-center', data:'number', name:'number'},
+                    {className:'more', data:'title', name:'title'},
+                    {className:'text-center', data:'created_at', name:'created_at'},
+                    {className:'text-center', data:'status', name:'status'},
+                    {
+                        className: 'text-center', orderable: false,
+                        render: function (data, type, row) {
+                                return "<a href='/sp/draft/"+row.id+"/general' class='btn btn-sm btn-primary'>Kemaskini</a><br><form method='get' class='draft-delete' action='/sp/draft/delete/"+row.id+"/"+row.code+"'><button type='submit' class='btn btn-sm btn-warning delete' >Padam</button></form>"
+                        }
+                    }
+                ]
+            });
+            console.log(a);
+        });
+
+        $('#datatable-draft').on('click', '.delete', function (e) {
+            e.preventDefault();
+            var currentForm = $(this).closest("form");
+            bootbox.confirm(
+                    {
+                        title:'Buang permohonan ini',
+                        message: 'Adakah anda pasti untuk membuang Permohonan ini?',
+                        callback: function(result) {
+                            if (result) {
+                                $('#progressBar').show();
+                                currentForm.submit();
+                            }
+                        },
+                        buttons: {
+                            confirm: {
+                                label: 'Pasti!',
+                            },
+                            cancel: {
+                                label: 'Batal',
+                            }
+                        }
+                    });
+        });
+
+
+    </script>
+<script href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/bm.js"></script>
+<script>
+
+    function getDob(nric) {
+        var nricYear = nric.substr(0, 2);
+        var nricMonth = nric.substr(2, 2);
+        var nricDay = nric.substr(4, 2);
+        var tahun = nricYear < 50 ? '20'+nricYear : '19'+nricYear;
+        return nricDay+'-'+nricMonth+'-'+tahun;
+    }
+
+    function calcAge(nric) {
+        var nricYear = nric.substr(0, 2);
+        var tahun = nricYear < 50 ? '20'+nricYear : '19'+nricYear;
+        var age = moment().format('YYYY') - tahun;
+        return age <= 0 ? 'Kurang 1 Tahun' : age;
+    }
+
+    Number.prototype.formatNumber = function (c, d, t) {
+        var n = this,
+                c = isNaN(c = Math.abs(c)) ? 2 : c,
+                d = d == undefined ? "." : d,
+                t = t == undefined ? "," : t,
+                s = n < 0 ? "-" : "",
+                i = String(parseInt(n = Math.abs(Number(n) || 0).toFixed(c))),
+                j = (j = i.length) > 3 ? j % 3 : 0;
+        return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+    };
+
+    function progressBarShow() {
+        $('#progressBar').show();
+    }
+
+    function progressBarHide() {
+        $('#progressBar').hide();
+    }
+
+    function preloaderShow() {
+        $('.preloader').show();
+    }
+
+    function preloaderHide() {
+        $('.preloader').fadeOut();
+    }
+
+</script>
+</body>
+
+</html>

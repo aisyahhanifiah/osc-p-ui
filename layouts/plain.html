@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ config('app.name', 'OSCMON') }}</title>
+
+    @yield('css')
+</head>
+
+<?php
+if (Request::segment(1) == 'sp') $skin = 'skin-green';
+else if (Request::segment(1) == 'staff') $skin = 'skin-yellow';
+else if (Request::segment(1) == 'agency') $skin = 'skin-red';
+else if (Request::segment(1) == 'management') $skin = 'skin-blue';
+else $skin = 'skin-purple';
+?>
+
+<body class="hold-transition {{$skin}} sidebar-mini">
+
+<div class="wrapper">
+    <div class="content-wrapper" style="margin-left: 0px">
+        @yield('content')
+    </div>
+
+
+    @yield('footer')
+
+</div>
+@yield('script')
+</body>
+</html>

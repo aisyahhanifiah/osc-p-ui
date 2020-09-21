@@ -1,5 +1,5 @@
-<?php include "header-sp.php" ?>
-<?php include "sidebar-sp.php" ?>
+<?php include "header-atd.php" ?>
+<?php include "sidebar-atd.php" ?>
 
 <div class="page-wrapper">
     <div class="container-fluid">
@@ -35,7 +35,7 @@
                             <td valign="top" colspan="1" class="dataTables_empty">MPKJ-001</td>
                             <td valign="top" colspan="1" class="dataTables_empty">UBAHSUAI DAN TAMBAHAN RUANG LANTAI KILANG</td>
                             <td valign="top" colspan="1" class="dataTables_empty">ORION FOOD INDUSTRIES (M) SDN. BHD.</td>
-                            <td valign="top" colspan="1" class="dataTables_empty"><a href="maklumatprojek-sp.php">Info</a></td>
+                            <td valign="top" colspan="1" class="dataTables_empty"><a href="maklumatprojek-atd.php">Info</a></td>
                             
                         </tr>
                     </tbody>

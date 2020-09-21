@@ -11,7 +11,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="kpkt.png">
     <!-- CSRF Token -->
-    <meta name="csrf-token" content="VDhDv46n1AeFVaVPnfW1Ehdu80YcM5RyDidPznQ1">
+    <meta name="csrf-token" content="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">
 
     <title>OSC 3 Plus Online</title>
 
@@ -20,9 +20,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" >
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v0.0.1/css/unicons.css">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
-
-
-    <link rel="stylesheet" type="text/css" href="css/customize.css">
     <style>
         @-webkit-keyframes blinker {
           from {opacity: 1.0;}
@@ -38,10 +35,9 @@
         }
     </style>
     <link href="css/app.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-    
+
 <!-- Custom CSS -->
     <!-- <link href="/css/app.css" rel="stylesheet"> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -74,44 +70,37 @@
     </div>
 
     
-    <header class="topbar">
-    <nav class="navbar top-navbar navbar-expand-md sp">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap337.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+<header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md staff">
         <div class="navbar-header">
-            <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
-                        class="uil uil-bars"></i></a>
-            <a class="navbar-brand" href="/"><img src="kpkt.png" alt="" style="width: 35px;"
-                                                  class="mr-2">
-                                    <span class="logo-text"><strong>Pemohon</strong></span>
+            <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="uil uil-bars"></i></a>
+            <a class="navbar-brand" href="/"><img src="http://128.199.195.92/images/pbt/logos/MPKj.png" alt="" style="width: 35px;" class="mr-2">
+                                    <span class="logo-text"><strong>Pegawai PBT MPKj</strong></span>
                 
             </a>
-            <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
-               data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-               aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+            <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
         </div>
 
         <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
             <ul class="navbar-nav float-left mr-auto">
-                <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light"
-                                                          href="javascript:void(0)" data-sidebartype="mini-sidebar"><i
-                                class="uil uil-bars font-24 text-black-50"></i></a></li>
+                <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="uil uil-bars font-24 text-black-50"></i></a></li>
             </ul>
             <ul class="navbar-nav float-right">
-                <li class="navbar-brand mt-3"><span class="logo-text" style="padding-top:0.1rem"><strong>ABDUL HAMID BIN AKUB</strong></span></li>
+                <li class="navbar-brand mt-3"><span class="logo-text" style="padding-top:0.1rem"><strong>PN. NORLAILY BT RAHMAN</strong></span><span style="font-weight: 100"> (JURUTERA PEMBANGUNAN KANAN)</span></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href=""
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                class='uil uil-user-square display-7 text-primary'></i></a>
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="uil uil-user-square display-7 text-primary"></i></a>
                     <div class="dropdown-menu dropdown-menu-right user-dd animated" style="min-width: 0px;">
 
-                        <a class="dropdown-item"
-                           href="#">
-                            <i class='uil uil-cog  m-r-5 m-l-2'></i> Kemaskini Akaun
+                        <a class="dropdown-item" href="http://128.199.195.92/staff/profile">
+                            <i class="uil uil-cog  m-r-5 m-l-2"></i> Kemaskini Akaun
                         </a>
-                        <a class="dropdown-item"
-                           onclick="event.preventDefault();document.getElementById('logout-form').submit();"
-                           style="cursor: pointer"><i class="uil uil-exit m-r-5 m-l-2"></i> Log Keluar</a>
-                        <form id="logout-form" action="http://165.22.247.174/sp/logout" method="POST" style="display: none;">
-                            <input type="hidden" name="_token" value="VDhDv46n1AeFVaVPnfW1Ehdu80YcM5RyDidPznQ1">                        </form>
+                        <a class="dropdown-item" onclick="event.preventDefault();document.getElementById('logout-form').submit();" style="cursor: pointer"><i class="uil uil-exit m-r-5 m-l-2"></i> Log Keluar</a>
+                        <form id="logout-form" action="http://128.199.195.92/staff/logout" method="POST" style="display: none;">
+                            <input type="hidden" name="_token" value="bf0T5oNmOeoI0oKG3VbXoRC5OfJ94FEDGvYH30nZ">                        </form>
                     </div>
                 </li>
             </ul>

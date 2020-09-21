@@ -1,5 +1,5 @@
-<?php include "header-sp.php" ?>
-<?php include "sidebar-sp.php" ?>
+<?php include "header-osc.php" ?>
+<?php include "sidebar-osc.php" ?>
 
 <div class="page-wrapper">
     <div class="container-fluid">
@@ -9,7 +9,7 @@
                 <h3 class="big-word mb-3">Senarai Projek</h3>
             </div>
             <div class="col-md-3 text-right">
-               
+                    <a href="addprojek.php" class="btn btn-primary" style="margin-top:10px"><i class="fas fa-plus"></i> Daftar Projek</a>
             </div>
         </div>
         <ol class="breadcrumb">
@@ -26,7 +26,7 @@
                             <th class="text-center sorting" width="20%" tabindex="0" aria-controls="projects" rowspan="1" colspan="1" aria-label="Tajuk Projek: activate to sort column ascending" style="width: 150px;">Tajuk Projek</th>
                             <th class="text-center sorting" width="20%" tabindex="0" aria-controls="projects" rowspan="1" colspan="1" aria-label="Pemaju: activate to sort column ascending" style="width: 150px;">Pemaju</th>
                             <th class="text-center sorting_disabled" width="10%" rowspan="1" colspan="1" aria-label="Info" style="width: 77px;">Info</th>
-                            
+                            <th class="text-center sorting_disabled" width="10%" rowspan="1" colspan="1" aria-label="Nyahaktif" style="width: 78px;">Nyahaktif</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -36,7 +36,8 @@
                             <td valign="top" colspan="1" class="dataTables_empty">UBAHSUAI DAN TAMBAHAN RUANG LANTAI KILANG</td>
                             <td valign="top" colspan="1" class="dataTables_empty">ORION FOOD INDUSTRIES (M) SDN. BHD.</td>
                             <td valign="top" colspan="1" class="dataTables_empty"><a href="maklumatprojek-sp.php">Info</a></td>
-                            
+                            <td valign="top" colspan="1" class="dataTables_empty"><button type="submit" class="btn btn-danger btn-sm" title=" Permohonan Serentak mengandungi permohonan dibawahnya dan tidak boleh dibuang " disabled=""><i class="fa fa-trash"></i>
+                            </button></td>
                         </tr>
                     </tbody>
                     </table></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="projects_info" role="status" aria-live="polite">Tiada rekod wujud</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="projects_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="projects_previous"><a href="#" aria-controls="projects" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item next disabled" id="projects_next"><a href="#" aria-controls="projects" data-dt-idx="1" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>

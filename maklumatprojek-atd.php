@@ -1,5 +1,5 @@
-<?php include "header-osc.php" ?>
-<?php include "sidebar-osc.php" ?>
+<?php include "header-atd.php" ?>
+<?php include "sidebar-atd.php" ?>
 
 
 Kebenaran Merancang
@@ -18,8 +18,8 @@ Kebenaran Merancang
 
     </div>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="dashboard-osc.php"><i class="uil uil-home"></i>Laman Utama</a></li>
-      <li class="breadcrumb-item"><a href="senaraiprojek-osc.php">Senarai Projek</a></li>
+      <li class="breadcrumb-item"><a href="dashboard-atd.php"><i class="uil uil-home"></i>Laman Utama</a></li>
+      <li class="breadcrumb-item"><a href="senaraiprojek-atd.php">Senarai Projek</a></li>
       <li class="breadcrumb-item active">Maklumat Projek</li>
     </ol>
 
@@ -121,7 +121,20 @@ Kebenaran Merancang
           <br>                        
           <div class="row">
             <div class="col-lg-9">
-
+              <ul class="nav nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link active" href="maklumatprojek-atd.php">Maklumat Am</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="lampirankerjatanah.php">Lawatan Tapak</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="lampirankerjabangunan.php">Kertas Perakuan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
+            </li>
+        </ul>
               <div class="card">
                 <div class="alert alert-secondary">
                   <div class="row">
@@ -477,9 +490,9 @@ Kebenaran Merancang
 
                             </div>
                             <div class="box-footer text-center">
-                              <form method="GET" action="/staff/sub-groups/project/update/60">
+                              <!-- <form method="GET" action="/staff/sub-groups/project/update/60">
                                 <button type="submit" class="btn btn-primary">Kemaskini Projek</button>
-                              </form>
+                              </form> -->
                             </div>
                           </div>
                         </div>
@@ -500,7 +513,7 @@ Kebenaran Merancang
                             <div class="box-body form-horizontal">
                               <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="submissions" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="submissions_info">
                                 <thead style="background-color: #03A9F4">
-                                  <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Status" style="width: 54px;">Status</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 47px;">Buang</th></tr>
+                                  <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Status" style="width: 54px;">Status</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th></tr>
                                 </thead>
                                 <tbody>
 
@@ -512,12 +525,7 @@ Kebenaran Merancang
                                     <td class="text-center">Jabatan Perancangan Pembangunan</td>
                                     <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Perbaharui</a></td>
                                     <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Info</button></td>
-                                    <td class="text-center">
-                                      <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/4015"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
-                                        <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form>
-                                    </td>
+                                    
                                   </tr><tr role="row" class="even">
                                     <td class="text-center">11-02-2020</td>
                                     <td>Permohonan Permit Sementara</td>
@@ -525,22 +533,17 @@ Kebenaran Merancang
                                     <td class="text-center">Jabatan Kawalan Bangunan</td>
                                     <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Pindaan</a></td>
                                     <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="5124">Info</button></td>
-                                    <td class="text-center">
-                                      <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/5124"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
-                                        <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form>
-                                    </td>
+                                    
                                   </tr></tbody>
                                 </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
                               </div>
                               <form method="GET" action="/staff/sub-groups/project/submission/add/60">
                                 <div class="box-footer text-center">
 
-                                  <button type="submit" class="btn btn-primary">Tambah Permohonan</button>
+                                  <!-- <button type="submit" class="btn btn-primary">Tambah Permohonan</button>
 
                                   &nbsp;
-                                  <button type="submit" class="btn btn-primary" form="chartform">Carta Bar</button>
+                                  <button type="submit" class="btn btn-primary" form="chartform">Carta Bar</button> -->
                                 </div>
                               </form>
                               <form method="get" action="/staff/sub-groups/project/chart/60" id="chartform"></form>
@@ -565,7 +568,7 @@ Kebenaran Merancang
                               <div class="box-body form-horizontal">
                                 <div id="members_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="members_length"><label>Papar <select name="members_length" aria-controls="members" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="members_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="members"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
                                   <thead style="background-color: #03A9F4">
-                                    <tr role="row"><th width="25%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama: activate to sort column ascending" style="width: 172px;">Nama</th><th width="15%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Profession: activate to sort column ascending" style="width: 94px;">Profession</th><th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Nama Syarikat</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="PSP" style="width: 35px;">PSP</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 54px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 46px;">Buang</th></tr>
+                                    <tr role="row"><th width="25%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama: activate to sort column ascending" style="width: 172px;">Nama</th><th width="15%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Profession: activate to sort column ascending" style="width: 94px;">Profession</th><th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Nama Syarikat</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="PSP" style="width: 35px;">PSP</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 54px;">Info</th></tr>
                                   </thead>
                                   <tbody>
 
@@ -577,27 +580,21 @@ Kebenaran Merancang
                                       <td class="text-center">JS WARISAN SDN BHD</td>
                                       <td class="text-center"> Ya </td>
                                       <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
-                                      <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/62"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
-                                        <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form></td>
+                                      
                                     </tr><tr role="row" class="even">
                                       <td class="text-center">LEE YU KHEN</td>
                                       <td class="text-center">Perancang Bandar</td>
                                       <td class="text-center">JURURANCANG LYK</td>
                                       <td class="text-center"> Tidak</td>
                                       <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember2">Info</button></td>
-                                      <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/63"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
-                                        <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form></td>
+                                      
                                     </tr></tbody>
                                   </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="members_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="members_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="members_previous"><a href="#" aria-controls="members" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="members" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="members_next"><a href="#" aria-controls="members" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
                                 </div>
                                 <div class="panel-footer text-center">
                                   <div class="row">
                                     <div class="col-lg-1">&nbsp;</div>
-                                    <div class="col-lg-3 text-center">
+                                    <!-- <div class="col-lg-3 text-center">
                                       <form method="GET" action="/staff/sub-groups/project/member/add/60">
                                         <button type="submit" class="btn btn-primary" disabled="">Tambah Ahli (SP)</button>
                                       </form>
@@ -611,7 +608,7 @@ Kebenaran Merancang
                                       <form method="GET" action="/staff/sub-groups/project/member/psp/60">
                                         <button type="submit" class="btn btn-primary">Lantik PSP</button>
                                       </form>
-                                    </div>
+                                    </div> -->
                                   </div>
                                 </div>
                               </div>
@@ -1103,72 +1100,18 @@ Kebenaran Merancang
           </div>
         </div>
 
-        <div class="card">
-          <div class="alert alert-secondary">
-            <div class="panel-group">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title text-center">
-                    <a data-toggle="collapse" href="#lawatan"><span style="text-decoration: underline">Laporan Lawatan Tapak</span></a>
-                  </h4>
-                </div>
-                <div id="lawatan" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <div class="modal-body text-center">
-                                <div class="row">
-                                  <label for="" class="control-label col-md-12">SHOW PDF FILE</label>
-                                  
-                                </div>
-                                <div class="row">
-                                  <label for="" class="control-label col-md-12">GAMBAR PDF</label>
-                                  
-                                  <!-- <img style="width:500px" src="https://images.unsplash.com/photo-1591588582259-e675bd2e6088?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class="rounded float-left img-responsive" alt=""> -->
-                                </div>
-                                <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button>
-                              </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="alert alert-secondary">
-            <div class="panel-group">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title text-center">
-                    <a data-toggle="collapse" href="#perakuan"><span style="text-decoration: underline">Kertas Perakuan</span></a>
-                  </h4>
-                </div>
-                <div id="perakuan" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <div class="modal-body text-center">
-                                <div class="row">
-                                  <a href="#" class="control-label col-md-12">Download Kertas Perakuan Lengkap PDF FILE</a>
-                                  
-                                </div>
-                                
-                                <!-- <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button> -->
-                              </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
 
 
 </div>
 
 <div class="col-lg-3">
-  <div class="card">
+  <!-- <div class="card">
     <div class="alert alert-secondary">
 
     </div>
-  </div>
+  </div> -->
 
 
   <div class="card">
@@ -1663,8 +1606,7 @@ Kebenaran Merancang
 
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Approve</button>
-            <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Reject</button>
+            
             <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
           </div>
         </div>

@@ -7,9 +7,9 @@
     <div class="container-fluid">
         <h3 class="big-word mb-3">Maklumat Projek</h3>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/home">Laman Utama</a></li>
+            <li class="breadcrumb-item"><a href="dashboard-sp.php">Laman Utama</a></li>
             <!-- <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/sub-groups/project">Projek</a></li> -->
-            <li class="breadcrumb-item"><a href="https://oscstaging.kpkt.gov.my/staff/sub-groups/project/list">Senarai Projek</a></li>
+            <li class="breadcrumb-item"><a href="senaraiprojek-sp.php">Senarai Projek</a></li>
             <li class="breadcrumb-item active">Maklumat Projek</li>
         </ol>
         <?php include "progressbar.php" ?>

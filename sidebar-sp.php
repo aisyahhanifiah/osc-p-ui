@@ -12,22 +12,22 @@
                     </a>
                 </li>
                 <li class="sidebar-item ">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/forms" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false">
                         <i class="uil uil-files-landscapes"></i><span class="hide-menu">Borang Permohonan</span>
                     </a>
                 </li>
                 <li class="sidebar-item ">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/draft/list" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false">
                         <i class="uil uil-document-layout-left"></i><span class="hide-menu">Senarai Deraf</span>
                     </a>
                 </li>
                 <li class="sidebar-item ">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="http://165.22.247.174/sp/application/list" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false">
                         <i class="uil uil-files-landscapes-alt"></i><span class="hide-menu">Senarai Permohonan</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                        <a href="{{ url('/sp/sub-groups/concurrent/list') }}" class="sidebar-link"><i class="uil-comment-alt-notes"></i><span class="hide-menu">Senarai Permohonan Serentak</span></a>
+                        <a href="#" class="sidebar-link"><i class="uil-comment-alt-notes"></i><span class="hide-menu">Senarai Permohonan Serentak</span></a>
                     </li>
                 <li class="sidebar-item ">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="senaraiprojek-sp.php" aria-expanded="false">
@@ -43,7 +43,7 @@
                     <li class="sidebar-item ">
                         <a class="sidebar-link has-arrow waves-effect waves-dark " href="javascript:void(0)" aria-expanded="false"><i class="fas fa-file-pdf"></i><span class="hide-menu">Manual</span></a>
                         <ul aria-expanded="false" class="collapse first-level ">
-                            <li class="sidebar-item"><a href="http://165.22.247.174/manual/MANUAL_PENGGUNA_SP(KM)_OSC3PLUS_KPKT_VER01_final.pdf" class="sidebar-link" target="_blank"><i class="uil uil-circle"></i><span class="hide-menu">Manual SP (KM) v1.0</span></a></li>
+                            <li class="sidebar-item"><a href="#" class="sidebar-link" target="_blank"><i class="uil uil-circle"></i><span class="hide-menu">Manual SP (KM) v1.0</span></a></li>
                         </ul>
                     </li>
                 </ul>

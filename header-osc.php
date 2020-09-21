@@ -20,6 +20,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" >
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v0.0.1/css/unicons.css">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         @-webkit-keyframes blinker {
           from {opacity: 1.0;}
@@ -74,6 +75,7 @@
 <script src="js/bootstrap337.min.js"></script>
 <script src="js/moment.min.js"></script>
 <script src="js/fullcalendar.min.js"></script>
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
 
     <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md staff">
@@ -105,7 +107,7 @@
                     <div class="dropdown-menu dropdown-menu-right user-dd animated" style="min-width: 0px;">
 
                         <a class="dropdown-item"
-                           href="https://oscstaging.kpkt.gov.my/staff/profile">
+                           href="#">
                             <i class='uil uil-cog  m-r-5 m-l-2'></i> Kemaskini Akaun
                         </a>
                         <a class="dropdown-item"

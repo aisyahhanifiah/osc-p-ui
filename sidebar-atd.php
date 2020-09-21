@@ -2,8 +2,8 @@
         <div class="scroll-sidebar">
             <nav class="sidebar-nav">
                 <ul id="sidebarnav" class="in">
-                    <li class="sidebar-item selected">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link active" href="http://127.0.0.1:8000/staff/home" aria-expanded="false">
+                    <li class="sidebar-item">
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard-atd.php" aria-expanded="false">
                             <i class="uil uil-web-grid-alt"></i><span class="hide-menu">Dashboard</span>
                         </a>
                     </li>
@@ -22,7 +22,11 @@
                             <li class="sidebar-item"><a href="http://127.0.0.1:8000/staff/submissions/am" class="sidebar-link "><i class="uil uil-circle"></i><span class="hide-menu">Lain-lain</span></a></li>
                         </ul>
                     </li>
-
+                    <li class="sidebar-item ">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="senaraiprojek-atd.php" aria-expanded="false">
+                        <i class="uil uil-file-alt"></i><span class="hide-menu">Senarai Projek</span>
+                    </a>
+                </li>
                     <!-- Projects -->
                                         <!--Review -->
                                         <li class="sidebar-item ">

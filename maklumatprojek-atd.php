@@ -126,14 +126,14 @@ Kebenaran Merancang
                 <a class="nav-link active" href="maklumatprojek-atd.php">Maklumat Am</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjatanah.php">Lawatan Tapak</a>
+                <a class="nav-link " href="lawatantapak.php">Lawatan Tapak</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjabangunan.php">Kertas Perakuan</a>
+                <a class="nav-link " href="kertasperakuan.php">Kertas Perakuan</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
-            </li>
+            </li> -->
         </ul>
               <div class="card">
                 <div class="alert alert-secondary">

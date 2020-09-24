@@ -63,19 +63,18 @@
 <body>
 <div id="main-wrapper" class="d-flex flex-column">
 
-    <div class="preloader">
+<!--     <div class="preloader">
         <div class="lds-ripple">
             <div class="lds-pos"></div>
             <div class="lds-pos"></div>
         </div>
     </div>
-
+ -->
     
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap337.min.js"></script>
 <script src="js/moment.min.js"></script>
 <script src="js/fullcalendar.min.js"></script>
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
 
     <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md staff">

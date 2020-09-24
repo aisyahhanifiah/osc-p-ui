@@ -7,7 +7,7 @@
             <ul id="sidebarnav">
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false" href="dashboard.php">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false" href="dashboard-sp.php">
                         <i class="uil uil-web-grid-alt"></i><span class="hide-menu">Dashboard</span>
                     </a>
                 </li>

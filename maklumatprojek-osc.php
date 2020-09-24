@@ -160,42 +160,6 @@ Kebenaran Merancang
                             </div>
                           </div>
 
-                            <!--<div class="form-group">
-                                <div class="col-md-3">&nbsp;</div>
-                                <div class="col-md-9 row">
-                                    <div class="col-md-2">
-                                        <input type="checkbox"   disabled/>
-                                        <label for="" class="control-label">Dalaman PPj</label>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">JKR</label>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">RUMAWIP</label>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">PPA1M</label>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">PPR</label>
-                                    </div>
-
-                                    <div class="col-md-1">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">PR1MA</label>
-                                    </div>
-
-                                </div>
-                              </div>-->
-
                               <div class="form-group row">
                                 <label class="col-md-3 control-label">Kategori Projek</label>
                                 <div class="col-md-9 row">
@@ -218,20 +182,6 @@ Kebenaran Merancang
                                 </div>
                               </div>
 
-     <!--                       <div class="row">
-                                <label for="" class="control-label col-md-3">Pemaju</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Fail Rujukan</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-                          -->
                           <div class="row">
                             <label for="" class="control-label col-md-3">Status Projek</label>
                             <div class="col-md-9">
@@ -239,22 +189,7 @@ Kebenaran Merancang
                             </div>
                           </div>
 
-    <!--                        <div class="form-group">
-                                <div class="col-md-3">&nbsp;</div>
-                                <div class="col-md-9">
-                                    <div class="col-md-2">
-                                        <input type="radio" name="is_fasttrack" value="0"
-                                                 checked    disabled/>
-                                        <label for="" class="control-label">Projek Biasa</label>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <input type="radio" name="is_fasttrack" value="1"
-                                                 disabled/>
-                                        <label for="" class="control-label">FastTrack</label>
-                                    </div>
-                                </div>
-                              </div>-->
-
+   
                               <div class="form-group">
                                 <label for="" class="control-label col-md-3">Focal Point</label>
                                 <div class="col-md-7">
@@ -280,200 +215,7 @@ Kebenaran Merancang
                                   </table>
                                 </div>
                               </div>
-    <!--
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Koordinat</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-3 control-label">Status Pemaju</label>
-                                <div class="col-md-9">
-                                    <div class="col-md-3">
-                                        <input type="radio" name="is_developer_status" id="r2" value="1"
-                                                 disabled/>
-                                        <label for="" class="control-label">Bumiputera</label>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <input type="radio" name="is_developer_status" id="r3" value="2"
-                                                 disabled/>
-                                        <label for="" class="control-label">Bukan Bumiputera</label>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <input type="radio" name="is_developer_status" id="r1" value="3"
-                                                 disabled/>
-                                        <label for="" class="control-label">Lain-lain</label> 
-                                        <div class="text">
-                                            <p>
-                                            <input class="control-label" name="others" type="text" id="text1" maxlength="30" value="" disabled>
-                                            </p>
-                                        </div>
-                                    </div>
-                                                                
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Nama Syarikat Pemaju</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Alamat Syarikat Pemaju</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">No. Telefon Syarikat Pemaju</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Nombor Lesen Pemaju</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Nombor Permit Iklan dan Jualan</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Pemilik Tanah</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-3 control-label">Pegangan Hak Milik Tanah</label>
-                                <div class="col-md-9">
-                                    <div class="col-md-4">
-                                        <input type="radio" name="is_leasehold" value="0"
-                                                checked   disabled/>
-                                        <label for="" class="control-label">Pegangan Pajak</label>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <input type="radio" name="is_leasehold" value="1"
-                                                 disabled/>
-                                        <label for="" class="control-label">Hak Milik Bebas</label>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-3 control-label">Pembiayaan</label>
-                                <div class="col-md-9">
-                                    <div class="col-md-2">
-                                        <input type="checkbox"   disabled/>
-                                        <label for="" class="control-label">Kerajaan</label>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Swasta</label>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Luas Tapak (Ekar)</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Ketumpatan Tapak</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Tarikh Cadangan Konsep</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static">1970-01-01</p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Jangka Bina (Tahun)</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Jangka Siap (Tahun)</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">EOT (Extension of Time)</label>
-                                <div class="col-md-9">
-                                    <p class="form-control-static"></p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <label for="" class="control-label col-md-3">Imej Perspektif</label>
-                                <div class="col-md-9">
-                                    <img src="/staff/project/image/60/download" width="20%">
-                                </div>
-                              </div> -->
-                              <!-- "image" => "projects/43/Minit Mesyuarat.jpg -->
-    <!--
-                            <div class="form-group">
-                                <label class="col-md-3 control-label">Jenis Perumahan</label>
-                                <div class="col-md-9 row">
-                                    <div class="col-md-4">
-                                        <input type="checkbox"   disabled/>
-                                        <label for="" class="control-label">Rumah Pangsa</label>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Kondominium</label>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Rumah Teres</label>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Semi-D</label>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Banglo</label>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <input type="checkbox"  disabled/>
-                                        <label for="" class="control-label">Lain-lain</label>
-                                    </div>
-
-                                </div>
-                              </div> -->
+   
 
                             </div>
                             <div class="box-footer text-center">
@@ -624,36 +366,12 @@ Kebenaran Merancang
                             <div class="modal-dialog modal-lg" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h4 class="modal-title" id="submissionModalTitle1">Maklumat Ahli Projek</h4>
+                                  <h4 class="modal-title" id="submissionModalTitle1">Ulasan Lawatan Tapak</h4>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                 </div>
                                 <div class="modal-body" id="#">
 
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Nama</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">SAW HAN WOEI</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Profession</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">Jurutera Awam</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Nama Syarikat</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">JS WARISAN SDN BHD</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">No. Tel</label>
-                                    <div class="col-md-8">
-                                      <p class="form-control-static col-md-1" style="padding-left: 0px;"></p>
-                                      <p class="form-control-static col-md-2" style="padding-left: 0px;"></p>
-                                    </div>
-                                  </div>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                                 </div>
                                 <div class="modal-footer">
@@ -1115,15 +833,27 @@ Kebenaran Merancang
                 <div id="lawatan" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="modal-body text-center">
-                                <div class="row">
-                                  <label for="" class="control-label col-md-12">SHOW PDF FILE</label>
-                                  
-                                </div>
-                                <div class="row">
-                                  <label for="" class="control-label col-md-12">GAMBAR PDF</label>
-                                  
-                                  <!-- <img style="width:500px" src="https://images.unsplash.com/photo-1591588582259-e675bd2e6088?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class="rounded float-left img-responsive" alt=""> -->
-                                </div>
+                      <table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
+                                  <thead style="background-color: #03A9F4">
+                                    <tr role="row">
+                                      <th class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1"  >Laporan Lawatan Tapak</th>
+                                      <th  class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1"  >Gambar Lawatan Tapak</th>
+                                      <th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Ulasan</th>
+                                  </thead>
+                                  <tbody>
+
+
+
+                                    <tr role="row" class="odd">
+                                      <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
+                                      <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
+                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
+                                    
+                                    </tr></tbody>
+                                  </table>
+
+                          
+                                <br>
                                 <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button>
                               </div>
                   </div>
@@ -1164,11 +894,6 @@ Kebenaran Merancang
 </div>
 
 <div class="col-lg-3">
-  <div class="card">
-    <div class="alert alert-secondary">
-
-    </div>
-  </div>
 
 
   <div class="card">
@@ -1179,15 +904,13 @@ Kebenaran Merancang
             <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
           </div>
           <div class="panel-body">
-            <form action="/staff/submissions/activity/6467" method="get">
               <div class="box-body">
                 <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notifikasi</button>
+                  <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi</a>
                 </div>
               </div>
-            </form>
             <br>
-            <form action="/staff/submissions/activity/6467" method="get">
+            <form action="" method="get">
               <div class="box-body">
                 <div class="box-footer text-center col-md-10 offset-md-1">
                   <button class="btn btn-block btn-primary">Notis</button>
@@ -1195,7 +918,7 @@ Kebenaran Merancang
               </div>
             </form>
             <br>
-            <form action="/staff/submissions/bills/6467" method="get">
+            <form action="" method="get">
               <div class="box-body">
                 <div class="box-footer text-center col-md-10 offset-md-1">
                   <button class="btn btn-block btn-primary">Arahan</button>

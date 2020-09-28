@@ -160,27 +160,27 @@ Kebenaran Merancang
                             </div>
                           </div>
 
-                              <div class="form-group row">
-                                <label class="col-md-3 control-label">Kategori Projek</label>
-                                <div class="col-md-9 row">
-                                  <div class="col-md-4">
-                                    <input type="radio" name="project_category_id" value="1" disabled="">
-                                    <label for="" class="control-label">Tidak Berkaitan</label>
-                                  </div>
-                                  <div class="col-md-4">
-                                    <input type="radio" name="project_category_id" value="1" checked="" disabled="">
-                                    <label for="" class="control-label">Persendirian</label>
-                                  </div>
-                                  <div class="col-md-4">
-                                    <input type="radio" name="project_category_id" value="1" disabled="">
-                                    <label for="" class="control-label">Projek Kerajaan</label>
-                                  </div>
-                                  <div class="col-md-4">
-                                    <input type="radio" name="project_category_id" value="1" disabled="">
-                                    <label for="" class="control-label">Usahasama (Outright Sale)</label>
-                                  </div>
-                                </div>
+                          <div class="form-group row">
+                            <label class="col-md-3 control-label">Kategori Projek</label>
+                            <div class="col-md-9 row">
+                              <div class="col-md-4">
+                                <input type="radio" name="project_category_id" value="1" disabled="">
+                                <label for="" class="control-label">Tidak Berkaitan</label>
                               </div>
+                              <div class="col-md-4">
+                                <input type="radio" name="project_category_id" value="1" checked="" disabled="">
+                                <label for="" class="control-label">Persendirian</label>
+                              </div>
+                              <div class="col-md-4">
+                                <input type="radio" name="project_category_id" value="1" disabled="">
+                                <label for="" class="control-label">Projek Kerajaan</label>
+                              </div>
+                              <div class="col-md-4">
+                                <input type="radio" name="project_category_id" value="1" disabled="">
+                                <label for="" class="control-label">Usahasama (Outright Sale)</label>
+                              </div>
+                            </div>
+                          </div>
 
                           <div class="row">
                             <label for="" class="control-label col-md-3">Status Projek</label>
@@ -189,327 +189,327 @@ Kebenaran Merancang
                             </div>
                           </div>
 
-   
-                              <div class="form-group">
-                                <label for="" class="control-label col-md-3">Focal Point</label>
-                                <div class="col-md-7">
-                                  <table class="table table-bordered table-striped">
-                                    <thead style="background-color: #03A9F4">
-                                      <tr><th width="40%">
-                                        Nama Pegawai
-                                      </th>
-                                      <th width="30%">
-                                        Nombor Telefon
-                                      </th>
-                                      <th width="30%">
-                                        Email
-                                      </th>
-                                    </tr></thead>
-                                    <tbody>
-                                      <tr>
-                                        <td>ADILAH</td>
-                                        <td>0123660949</td>
-                                        <td>adilah@objectexpression.com</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                              </div>
-   
 
-                            </div>
-                            <div class="box-footer text-center">
-                              <form method="GET" action="/staff/sub-groups/project/update/60">
-                                <button type="submit" class="btn btn-primary">Kemaskini Projek</button>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="box box-default box-solid">
-                            <div class="box-header with-border">
-                              <h3 class="box-title">Senarai Permohonan Bawah Projek</h3>
-                              <div class="box-tools">
-                                <div class="input-group input-group-sm" style="width: 40px;">
-
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="box-body form-horizontal">
-                              <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="submissions" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="submissions_info">
+                          <div class="form-group">
+                            <label for="" class="control-label col-md-3">Focal Point</label>
+                            <div class="col-md-7">
+                              <table class="table table-bordered table-striped">
                                 <thead style="background-color: #03A9F4">
-                                  <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Status" style="width: 54px;">Status</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 47px;">Buang</th></tr>
-                                </thead>
+                                  <tr><th width="40%">
+                                    Nama Pegawai
+                                  </th>
+                                  <th width="30%">
+                                    Nombor Telefon
+                                  </th>
+                                  <th width="30%">
+                                    Email
+                                  </th>
+                                </tr></thead>
                                 <tbody>
+                                  <tr>
+                                    <td>ADILAH</td>
+                                    <td>0123660949</td>
+                                    <td>adilah@objectexpression.com</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
 
 
-                                  <tr role="row" class="odd">
-                                    <td class="text-center">30-01-2020</td>
-                                    <td>Permohonan Kebenaran Merancang</td>
-                                    <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="PERMOHONAN KEBENARAN MERANCANG PELAN SUSUNATUR BAGI CADANGAN TAMBAHAN SEBUAH GUDANG (WAREHOUSE) DENGAN SATU TINGKAT UNIT KAWALAN QUALITY (UNIT QC), NEW REST AREA, SCHEDULED WASTE STORAGE DAN DIESEL SKID TANK,DI ATAS LOT 1913 (PT 59), LOT 1915 (PT 80), LOT 1916 (PT 81) DAN PT 350, DAERAH ULU LANGAT,  MUKIM HULU SEMENYIH,  BERALAMAT DI LOT 1238, BATU 23, JALAN KACHAU, SUNGAI LALANG, SEMENYIH, SELANGOR DARUL EHSAN UNTUK TETUAN YOKOHAMA BATTERIES SDN. BHD.">MPKJ-KM20200129-001</span></td>
-                                    <td class="text-center">Jabatan Perancangan Pembangunan</td>
-                                    <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Perbaharui</a></td>
-                                    <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Info</button></td>
-                                    <td class="text-center">
-                                      <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/4015"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
-                                        <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form>
-                                    </td>
-                                  </tr><tr role="row" class="even">
-                                    <td class="text-center">11-02-2020</td>
-                                    <td>Permohonan Permit Sementara</td>
-                                    <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="CADANGAN PERMIT BANGUNAN SEMENTARA BUMBUNG TERBUKA KEPADA KILANG PERUSAHAAN BERKEMBAR 3 TINGKAT SEDIADA DI ATAS LOT 5&amp;6 KILANG PERUSAHAAN SESEBUAH 3 TINGKAT SEDIADA DI ATAS LOT 7, JALAN CJ16/1A, KAWASAN PERINDUSTRIAN CHERAS JAYA, 43200 CHERAS MUKIM KAJANG, DAERAH HULU LANGAT, SELANGOR DARUL EHSAN UNTUK TETUAN AURAVILLA PROJECT SDN BHD">MPKJ-PS20200206-003</span></td>
-                                    <td class="text-center">Jabatan Kawalan Bangunan</td>
-                                    <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Pindaan</a></td>
-                                    <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="5124">Info</button></td>
-                                    <td class="text-center">
-                                      <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/5124"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
-                                        <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form>
-                                    </td>
-                                  </tr></tbody>
-                                </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
-                              </div>
-                              <form method="GET" action="/staff/sub-groups/project/submission/add/60">
-                                <div class="box-footer text-center">
+                        </div>
+                        <div class="box-footer text-center">
+                          <form method="GET" action="/staff/sub-groups/project/update/60">
+                            <button type="submit" class="btn btn-primary">Kemaskini Projek</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                                  <button type="submit" class="btn btn-primary">Tambah Permohonan</button>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="box box-default box-solid">
+                        <div class="box-header with-border">
+                          <h3 class="box-title">Senarai Permohonan Bawah Projek</h3>
+                          <div class="box-tools">
+                            <div class="input-group input-group-sm" style="width: 40px;">
 
-                                  &nbsp;
-                                  <button type="submit" class="btn btn-primary" form="chartform">Carta Bar</button>
-                                </div>
-                              </form>
-                              <form method="get" action="/staff/sub-groups/project/chart/60" id="chartform"></form>
                             </div>
                           </div>
                         </div>
 
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <div class="box box-default box-solid">
-                              <div class="box-header with-border">
-                                <h3 class="box-title">Ahli Projek</h3>
-                                <div class="box-tools">
-                                  <div class="input-group input-group-sm" style="width: 40px;">
-                                    <div class="input-group-btn">
-
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="box-body form-horizontal">
-                                <div id="members_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="members_length"><label>Papar <select name="members_length" aria-controls="members" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="members_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="members"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
-                                  <thead style="background-color: #03A9F4">
-                                    <tr role="row"><th width="25%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama: activate to sort column ascending" style="width: 172px;">Nama</th><th width="15%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Profession: activate to sort column ascending" style="width: 94px;">Profession</th><th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Nama Syarikat</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="PSP" style="width: 35px;">PSP</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 54px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 46px;">Buang</th></tr>
-                                  </thead>
-                                  <tbody>
+                        <div class="box-body form-horizontal">
+                          <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="submissions" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="submissions_info">
+                            <thead style="background-color: #03A9F4">
+                              <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Status" style="width: 54px;">Status</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 47px;">Buang</th></tr>
+                            </thead>
+                            <tbody>
 
 
+                              <tr role="row" class="odd">
+                                <td class="text-center">30-01-2020</td>
+                                <td>Permohonan Kebenaran Merancang</td>
+                                <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="PERMOHONAN KEBENARAN MERANCANG PELAN SUSUNATUR BAGI CADANGAN TAMBAHAN SEBUAH GUDANG (WAREHOUSE) DENGAN SATU TINGKAT UNIT KAWALAN QUALITY (UNIT QC), NEW REST AREA, SCHEDULED WASTE STORAGE DAN DIESEL SKID TANK,DI ATAS LOT 1913 (PT 59), LOT 1915 (PT 80), LOT 1916 (PT 81) DAN PT 350, DAERAH ULU LANGAT,  MUKIM HULU SEMENYIH,  BERALAMAT DI LOT 1238, BATU 23, JALAN KACHAU, SUNGAI LALANG, SEMENYIH, SELANGOR DARUL EHSAN UNTUK TETUAN YOKOHAMA BATTERIES SDN. BHD.">MPKJ-KM20200129-001</span></td>
+                                <td class="text-center">Jabatan Perancangan Pembangunan</td>
+                                <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Perbaharui</a></td>
+                                <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Info</button></td>
+                                <td class="text-center">
+                                  <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/4015"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
+                                    <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
+                                    </button>
+                                  </form>
+                                </td>
+                              </tr><tr role="row" class="even">
+                                <td class="text-center">11-02-2020</td>
+                                <td>Permohonan Permit Sementara</td>
+                                <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="CADANGAN PERMIT BANGUNAN SEMENTARA BUMBUNG TERBUKA KEPADA KILANG PERUSAHAAN BERKEMBAR 3 TINGKAT SEDIADA DI ATAS LOT 5&amp;6 KILANG PERUSAHAAN SESEBUAH 3 TINGKAT SEDIADA DI ATAS LOT 7, JALAN CJ16/1A, KAWASAN PERINDUSTRIAN CHERAS JAYA, 43200 CHERAS MUKIM KAJANG, DAERAH HULU LANGAT, SELANGOR DARUL EHSAN UNTUK TETUAN AURAVILLA PROJECT SDN BHD">MPKJ-PS20200206-003</span></td>
+                                <td class="text-center">Jabatan Kawalan Bangunan</td>
+                                <td class="text-center"><a href="#" data-toggle="modal" data-target="#spModal">Pindaan</a></td>
+                                <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="5124">Info</button></td>
+                                <td class="text-center">
+                                  <form class="submissiondelete" method="POST" action="/staff/sub-groups/project/submission/delete/5124"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                                <input type="hidden" name="project_id" value="60">
+                                    <button type="submit" class="btn btn-default" title="Buang Permohonan Dari Projek"><i class="uil uil-trash"></i>
+                                    </button>
+                                  </form>
+                                </td>
+                              </tr></tbody>
+                            </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
+                          </div>
+                          <form method="GET" action="/staff/sub-groups/project/submission/add/60">
+                            <div class="box-footer text-center">
 
-                                    <tr role="row" class="odd">
-                                      <td class="text-center">SAW HAN WOEI</td>
-                                      <td class="text-center">Jurutera Awam</td>
-                                      <td class="text-center">JS WARISAN SDN BHD</td>
-                                      <td class="text-center"> Ya </td>
-                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
-                                      <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/62"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
-                                        <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form></td>
-                                    </tr><tr role="row" class="even">
-                                      <td class="text-center">LEE YU KHEN</td>
-                                      <td class="text-center">Perancang Bandar</td>
-                                      <td class="text-center">JURURANCANG LYK</td>
-                                      <td class="text-center"> Tidak</td>
-                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember2">Info</button></td>
-                                      <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/63"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
-                                        <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
-                                        </button>
-                                      </form></td>
-                                    </tr></tbody>
-                                  </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="members_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="members_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="members_previous"><a href="#" aria-controls="members" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="members" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="members_next"><a href="#" aria-controls="members" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
-                                </div>
-                                <div class="panel-footer text-center">
-                                  <div class="row">
-                                    <div class="col-lg-1">&nbsp;</div>
-                                    <div class="col-lg-3 text-center">
-                                      <form method="GET" action="/staff/sub-groups/project/member/add/60">
-                                        <button type="submit" class="btn btn-primary" disabled="">Tambah Ahli (SP)</button>
-                                      </form>
-                                    </div>
-                                    <div class="col-lg-3 text-center">
-                                      <form method="GET" action="/staff/sub-groups/project/extmember/add/60">
-                                        <button type="submit" class="btn btn-primary" disabled="">Tambah Ahli Luar</button>
-                                      </form>
-                                    </div>
-                                    <div class="col-lg-3 text-center">
-                                      <form method="GET" action="/staff/sub-groups/project/member/psp/60">
-                                        <button type="submit" class="btn btn-primary">Lantik PSP</button>
-                                      </form>
-                                    </div>
-                                  </div>
+                              <button type="submit" class="btn btn-primary">Tambah Permohonan</button>
+
+                              &nbsp;
+                              <button type="submit" class="btn btn-primary" form="chartform">Carta Bar</button>
+                            </div>
+                          </form>
+                          <form method="get" action="/staff/sub-groups/project/chart/60" id="chartform"></form>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="box box-default box-solid">
+                          <div class="box-header with-border">
+                            <h3 class="box-title">Ahli Projek</h3>
+                            <div class="box-tools">
+                              <div class="input-group input-group-sm" style="width: 40px;">
+                                <div class="input-group-btn">
+
                                 </div>
                               </div>
                             </div>
                           </div>
 
+                          <div class="box-body form-horizontal">
+                            <div id="members_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="members_length"><label>Papar <select name="members_length" aria-controls="members" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="members_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="members"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
+                              <thead style="background-color: #03A9F4">
+                                <tr role="row"><th width="25%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama: activate to sort column ascending" style="width: 172px;">Nama</th><th width="15%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Profession: activate to sort column ascending" style="width: 94px;">Profession</th><th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Nama Syarikat</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="PSP" style="width: 35px;">PSP</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 54px;">Info</th><th width="7%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Buang" style="width: 46px;">Buang</th></tr>
+                              </thead>
+                              <tbody>
 
-                          <!-- Modal Project Member-->
-                          <div class="modal fade" id="submissionMember1" aria-hidden="true" aria-modal="true" role="dialog" aria-labelledby="submissionModalLabel1">
-                            <div class="modal-dialog modal-lg" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h4 class="modal-title" id="submissionModalTitle1">Ulasan Lawatan Tapak</h4>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                </div>
-                                <div class="modal-body" id="#">
 
-                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-                                </div>
-                                <div class="modal-footer">
-
-                                </div>
-                              </div>
+                                <tr role="row" class="odd">
+                                  <td class="text-center">SAW HAN WOEI</td>
+                                  <td class="text-center">Jurutera Awam</td>
+                                  <td class="text-center">JS WARISAN SDN BHD</td>
+                                  <td class="text-center"> Ya </td>
+                                  <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
+                                  <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/62"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
+                                    <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
+                                    </button>
+                                  </form></td>
+                                </tr><tr role="row" class="even">
+                                  <td class="text-center">LEE YU KHEN</td>
+                                  <td class="text-center">Perancang Bandar</td>
+                                  <td class="text-center">JURURANCANG LYK</td>
+                                  <td class="text-center"> Tidak</td>
+                                  <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember2">Info</button></td>
+                                  <td class="text-center"><form class="memberdelete" method="POST" action="/staff/sub-groups/project/member/delete/63"><input type="hidden" name="_token" value="HNrtFOEsEwaq8bHBxs1hi9d6bxnTQnoKSfmsn31X">                                            <input type="hidden" name="project_id" value="60">
+                                    <button type="button" class="btn btn-default" title="Buang Ahli Dari Projek"><i class="uil uil-trash"></i>
+                                    </button>
+                                  </form></td>
+                                </tr></tbody>
+                              </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="members_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="members_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="members_previous"><a href="#" aria-controls="members" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="members" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="members_next"><a href="#" aria-controls="members" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
                             </div>
-                          </div>
-                          <div class="modal fade" id="submissionMember2" aria-hidden="true" aria-modal="true" role="dialog" aria-labelledby="submissionModalLabel2">
-                            <div class="modal-dialog modal-lg" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h4 class="modal-title" id="submissionModalTitle2">Maklumat Ahli Projek</h4>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="panel-footer text-center">
+                              <div class="row">
+                                <div class="col-lg-1">&nbsp;</div>
+                                <div class="col-lg-3 text-center">
+                                  <form method="GET" action="/staff/sub-groups/project/member/add/60">
+                                    <button type="submit" class="btn btn-primary" disabled="">Tambah Ahli (SP)</button>
+                                  </form>
                                 </div>
-                                <div class="modal-body" id="#">
-
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Nama</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">LEE YU KHEN</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Profession</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">Perancang Bandar</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">Nama Syarikat</label>
-                                    <div class="col-md-9">
-                                      <p class="form-control-static">JURURANCANG LYK</p>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <label for="" class="control-label col-md-3">No. Tel</label>
-                                    <div class="col-md-8">
-                                      <p class="form-control-static col-md-1" style="padding-left: 0px;"></p>
-                                      <p class="form-control-static col-md-2" style="padding-left: 0px;"></p>
-                                    </div>
-                                  </div>
-
+                                <div class="col-lg-3 text-center">
+                                  <form method="GET" action="/staff/sub-groups/project/extmember/add/60">
+                                    <button type="submit" class="btn btn-primary" disabled="">Tambah Ahli Luar</button>
+                                  </form>
                                 </div>
-                                <div class="modal-footer">
-
+                                <div class="col-lg-3 text-center">
+                                  <form method="GET" action="/staff/sub-groups/project/member/psp/60">
+                                    <button type="submit" class="btn btn-primary">Lantik PSP</button>
+                                  </form>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <!-- team member's modal -->
-                      <div id="memberModal" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
-                        <div class="modal-dialog">
-                          <!-- Modal content-->
+
+
+                      <!-- Modal Project Member-->
+                      <div class="modal fade" id="submissionMember1" aria-hidden="true" aria-modal="true" role="dialog" aria-labelledby="submissionModalLabel1">
+                        <div class="modal-dialog modal-lg" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h4 class="modal-title">Ahli Kumpulan Koordinator</h4>
+                              <h4 class="modal-title" id="submissionModalTitle1">Ulasan Lawatan Tapak</h4>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                             </div>
-                            <div class="modal-body">
-                              <or>
-                              </or>
+                            <div class="modal-body" id="#">
+
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
+
                             </div>
                           </div>
                         </div>
                       </div>
-                      <!-- status's modal -->
-                      <div id="statusModal" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
-                        <div class="modal-dialog modal-lg">
-                          <!-- Modal content-->
+                      <div class="modal fade" id="submissionMember2" aria-hidden="true" aria-modal="true" role="dialog" aria-labelledby="submissionModalLabel2">
+                        <div class="modal-dialog modal-lg" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h4 class="modal-title">Status Permohonan</h4>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="submissionModalTitle2">Maklumat Ahli Projek</h4>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body" id="#">
+
                               <div class="row">
-                                <label for="" class="control-label col-md-4">Lengkap Diterima</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="full_name">OSC terima permohonan lengkap</p>
+                                <label for="" class="control-label col-md-3">Nama</label>
+                                <div class="col-md-9">
+                                  <p class="form-control-static">LEE YU KHEN</p>
                                 </div>
                               </div>
                               <div class="row">
-                                <label for="" class="control-label col-md-4">Mula Diproses</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="identification">OSC lantik Jabatan Memperaku (Koordinator)</p>
+                                <label for="" class="control-label col-md-3">Profession</label>
+                                <div class="col-md-9">
+                                  <p class="form-control-static">Perancang Bandar</p>
                                 </div>
                               </div>
                               <div class="row">
-                                <label for="" class="control-label col-md-4">Sedang Diproses</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="phone">Jabatan Memperaku (Koordinator) mula memproses permohonan</p>
+                                <label for="" class="control-label col-md-3">Nama Syarikat</label>
+                                <div class="col-md-9">
+                                  <p class="form-control-static">JURURANCANG LYK</p>
                                 </div>
                               </div>
+                              <div class="row">
+                                <label for="" class="control-label col-md-3">No. Tel</label>
+                                <div class="col-md-8">
+                                  <p class="form-control-static col-md-1" style="padding-left: 0px;"></p>
+                                  <p class="form-control-static col-md-2" style="padding-left: 0px;"></p>
+                                </div>
+                              </div>
+
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
+
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div id="spModal-x" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
-                        <div class="modal-dialog modal-lg">
-                          <!-- Modal content-->
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h4 class="modal-title">Maklumat Pemohon (SP)</h4>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                  </div>
+                  <!-- team member's modal -->
+                  <div id="memberModal" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Ahli Kumpulan Koordinator</h4>
+                        </div>
+                        <div class="modal-body">
+                          <or>
+                          </or>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- status's modal -->
+                  <div id="statusModal" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Status Permohonan</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Lengkap Diterima</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="full_name">OSC terima permohonan lengkap</p>
                             </div>
-                            <div class="modal-body">
-                              <div class="row">
-                                <label for="" class="control-label col-md-4">Nama</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="full_name">HAILZAM ANUAR BIN SHAHROM</p>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <label for="" class="control-label col-md-4">Kad Pengenalan (MyKad) / Pasport</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="identification">771114715107</p>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <label for="" class="control-label col-md-4">No Tel</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="phone">019 6663654</p>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <label for="" class="control-label col-md-4">Nama Syarikat</label>
-                                <div class="col-md-8">
-                                  <p class="form-control-static" id="company_name">BASIC INCEPTION SDN BHD</p>
-                                </div>
-                              </div>
+                          </div>
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Mula Diproses</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="identification">OSC lantik Jabatan Memperaku (Koordinator)</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Sedang Diproses</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="phone">Jabatan Memperaku (Koordinator) mula memproses permohonan</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="spModal-x" class="modal fade" role="dialog"  aria-hidden="true"  aria-modal="true" aria-labelledby="mynoteModalLabel">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Maklumat Pemohon (SP)</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Nama</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="full_name">HAILZAM ANUAR BIN SHAHROM</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Kad Pengenalan (MyKad) / Pasport</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="identification">771114715107</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">No Tel</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="phone">019 6663654</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <label for="" class="control-label col-md-4">Nama Syarikat</label>
+                            <div class="col-md-8">
+                              <p class="form-control-static" id="company_name">BASIC INCEPTION SDN BHD</p>
+                            </div>
+                          </div>
                 <!-- <div class="row">
                     <label for="" class="control-label col-md-4">Agensi JKR</label>
                     <div class="col-md-8">
@@ -835,12 +835,12 @@ Kebenaran Merancang
 
                   <div class="panel-body">
                     <div class="box-body form-horizontal">
-                              <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="bills_info">
-                      <thead style="background-color: #03A9F4">
-                      <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh & Masa Lawatan</th><th class="text-center sorting_disabled" width="40%" rowspan="1" colspan="1">Ulasan</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pengulas</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Kumpulan Teknikal</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jawatan</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Laporan (PDF)</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Gambar (PDF)</th></tr></thead>
-                      <tbody>
-                              
-                          <tr role="row" class="odd">
+                      <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="bills_info">
+                        <thead style="background-color: #03A9F4">
+                          <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh & Masa Lawatan</th><th class="text-center sorting_disabled" width="40%" rowspan="1" colspan="1">Ulasan</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pengulas</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Kumpulan Teknikal</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jawatan</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Laporan (PDF)</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Gambar (PDF)</th></tr></thead>
+                          <tbody>
+
+                            <tr role="row" class="odd">
                               <td class="text-center">1</td>
                               <td class="text-center"><div style="display:none">20190724</div>28-09-2020 12:10 PM</td>
                               <td class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
@@ -849,36 +849,151 @@ Kebenaran Merancang
                               <td class="text-center">JURUTERA PEMBANGUNAN KANAN</td>
                               <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                               <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
-                          
-                          </tr></tbody>
-                  </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
-                              </div>
+
+                            </tr></tbody>
+                          </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="card">
-          <div class="alert alert-secondary">
+            <div class="card">
+              <div class="alert alert-secondary">
+                <div class="panel-group">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title text-center">
+                        <a data-toggle="collapse" href="#perakuan"><span style="text-decoration: underline">Kertas Perakuan</span></a>
+                      </h4>
+                    </div>
+                    <div id="perakuan" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div class="modal-body text-center">
+                          <div class="row">
+                            <a href="#" class="control-label col-md-12">Download Kertas Perakuan Lengkap PDF FILE</a>
+
+                          </div>
+
+                          <!-- <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="alert alert-secondary">
+                <form action="http://128.199.195.92:8090/staff/submission/verified" method="post">
+                  <input type="hidden" name="_token" value="AWu4FBVnCRn6xPR1NumrGOsUC5MkoddYp0hP703Q">                        <div class="panel-group">
+                    <div class="panel panel-default">
+                      <div class="panel-heading text-center">
+                        <h4 class="panel-title"><span style="text-decoration: underline">Tindakan OSC</span></h4>
+                      </div>
+                      <div class="panel-body">
+                        <div class="form-group">
+                          <label for="" class="control-label">Status Projek</label>
+                          <select name="submission_status_id" id="complete_submission_status_id" class="form-control" required="" >
+                            <option value="">Sila Pilih</option>
+                            <option value="4" selected="">Lengkap</option>
+                            <option value="3">Tidak Lengkap</option>
+                          </select>
+                          <input type="hidden" name="submission_status_id" value="5">
+                        </div>
+                        <div class="form-group complete" style="">
+
+                        </div>
+                        <div class="form-group complete" style="">
+                          <label for="" class="control-label">Fail Rujukan OSC</label>
+
+                          <input type="text" name="osc_file_reference" id="osc_file_reference" class="form-control complete-input" required="" value="MPKj/OSC/001/20/206-2020">
+                        </div>
+                        <input type="hidden" name="kpkt_code_id" value="0">
+
+                        <div class="form-group complete" style="">
+                          <label for="" class="control-label">Tarikh Diterima</label>
+                          <input type="text" name="submission_accept_datetime" class="form-control complete-input datepicker" value="22-09-2020" required="">
+                        </div>
+                        <div class="form-group complete text-center" style="padding-bottom:10px; ">
+
+                        </div>
+                        <div class="form-group complete text-center" style="padding-bottom:10px; ">
+                          <div class="col-md-11 checkbox">
+                            <input type="checkbox" id="hardcopy_received" class=" complete-input" value="1" checked="" >
+                            <label for="" class="control-label">Dokumen Lengkap Diterima</label>
+                          </div>
+                        </div>
+
+                        <div class="box-footer text-center col-md-10 offset-md-1">
+                          <input type="hidden" name="submission_id" value="13221">
+                          <button class="btn btn-sm btn-block btn-primary" id="status-update">KEMASKINI</button>
+                          <br>
+                          <a href="/staff/surat-akuan-penerimaan/13221" target="_blank" class="btn btn-sm btn-block btn-default"> <i class="fa fa-print"></i> Cetak Surat Akuan Penerimaan</a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="alert alert-secondary">
+                <div class="panel-group">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
+                    </div>
+                    <div class="panel-body text-center">
+                      <div class="box-body">
+                        <div class="box-footer text-center col-md-10 offset-md-1">
+                          <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi Mula Kerja</a>
+                        </div>
+                      </div>
+                      <br>
+                        <div class="box-body">
+                          <div class="box-footer text-center">
+                            <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Ketidakpatuhan/Pematuhan</a>
+                          </div>
+                        </div>
+                      <br>
+                      <form action="" method="get">
+                        <div class="box-body">
+                          <div class="box-footer text-center">
+                            <button class="btn btn-primary">Notis Penahanan Pengeluaran CCC</button>
+                          </div>
+                        </div>
+                      </form>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="panel-group">
               <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title text-center">
-                    <a data-toggle="collapse" href="#perakuan"><span style="text-decoration: underline">Kertas Perakuan</span></a>
-                  </h4>
-                </div>
-                <div id="perakuan" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <div class="modal-body text-center">
-                                <div class="row">
-                                  <a href="#" class="control-label col-md-12">Download Kertas Perakuan Lengkap PDF FILE</a>
-                                  
-                                </div>
-                                
-                                <!-- <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button> -->
-                              </div>
+                <div class="panel-body">
+                  <div class="card">
+                    <div class="alert alert-secondary">
+                      <div class="form-group text-center">
+                        <label for="" class="control-label">Cetak Maklumat Projek</label>
+                        <div class="col-md-11">
+                          <a href="/staff/submissions/print/6467" class="btn btn-default" target="_blank"><i class="fa fa-print"></i> Cetak</a>
+                          <!--<button class="btn btn-default" disabled  style="cursor: not-allowed" title="Fungsi Dalam Pembinaan"><i class="fa fa-print"></i> Cetak</button>-->
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -886,143 +1001,26 @@ Kebenaran Merancang
           </div>
         </div>
 
+      </section>
 
-
-</div>
-
-<div class="col-lg-3">
-  <div class="card">
-                  <div class="alert alert-secondary">
-                      <form action="http://128.199.195.92:8090/staff/submission/verified" method="post">
-                          <input type="hidden" name="_token" value="AWu4FBVnCRn6xPR1NumrGOsUC5MkoddYp0hP703Q">                        <div class="panel-group">
-                              <div class="panel panel-default">
-                                  <div class="panel-heading text-center">
-                                      <h4 class="panel-title"><span style="text-decoration: underline">Tindakan OSC</span></h4>
-                                  </div>
-                                  <div class="panel-body">
-                                                                          <div class="form-group">
-                                          <label for="" class="control-label">Status Projek</label>
-                                          <select name="submission_status_id" id="complete_submission_status_id" class="form-control" required="" >
-                                              <option value="">Sila Pilih</option>
-                                              <option value="4" selected="">Lengkap</option>
-                                              <option value="3">Tidak Lengkap</option>
-                                          </select>
-                                                                                  <input type="hidden" name="submission_status_id" value="5">
-                                                                              </div>
-                                                                                                              <div class="form-group complete" style="">
-                                          
-                                      </div>
-                                                                          <div class="form-group complete" style="">
-                                          <label for="" class="control-label">Fail Rujukan OSC</label>
-                                          
-                                          <input type="text" name="osc_file_reference" id="osc_file_reference" class="form-control complete-input" required="" value="MPKj/OSC/B01/2/206-2020">
-                                      </div>
-                                                                          <input type="hidden" name="kpkt_code_id" value="0">
-                                      
-                                      <div class="form-group complete" style="">
-                                          <label for="" class="control-label">Tarikh Diterima</label>
-                                          <input type="text" name="submission_accept_datetime" class="form-control complete-input datepicker" value="22-09-2020" required="">
-                                      </div>
-                                                                          <div class="form-group complete text-center" style="padding-bottom:10px; ">
-                                          
-                                      </div>
-                                                                          <div class="form-group complete text-center" style="padding-bottom:10px; ">
-                                          <div class="col-md-11 checkbox">
-                                              <input type="checkbox" id="hardcopy_received" class=" complete-input" value="1" checked="" >
-                                              <label for="" class="control-label">Dokumen Lengkap Diterima</label>
-                                          </div>
-                                      </div>
-
-                                      <div class="box-footer text-center col-md-10 offset-md-1">
-                                          <input type="hidden" name="submission_id" value="13221">
-                                          <button class="btn btn-sm btn-block btn-primary" id="status-update">KEMASKINI</button>
-                                                                                  <br>
-                                          <a href="/staff/surat-akuan-penerimaan/13221" target="_blank" class="btn btn-sm btn-block btn-default"> <i class="fa fa-print"></i> Cetak Surat Akuan Penerimaan</a>
-                                                                              </div>
-
-                                                                      </div>
-                              </div>
-                          </div>
-                      </form>
-                  </div>
-              </div>
-
-  <div class="card">
-    <div class="alert alert-secondary">
-      <div class="panel-group">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
-          </div>
-          <div class="panel-body">
-              <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi Mula Kerja</a>
-                </div>
-              </div>
-            <br>
-            <form action="" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notis</button>
-                </div>
-              </div>
-            </form>
-            <br>
-            <form action="" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Arahan</button>
-                </div>
-              </div>
-            </form>
-
-
-          </div>
-        </div>
-      </div>
     </div>
+    <footer class="footer text-center" style="display:none">
+      Dibangunkan bersama oleh Perbadanan Putrajaya dan <a href="https://basicinception.com" style="color:#fff">Basic Inception</a>.
+    </footer>    </div>
+
   </div>
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="card">
-          <div class="alert alert-secondary">
-            <div class="form-group text-center">
-              <label for="" class="control-label">Cetak Maklumat Projek</label>
-              <div class="col-md-11">
-                <a href="/staff/submissions/print/6467" class="btn btn-default" target="_blank"><i class="fa fa-print"></i> Cetak</a>
-                <!--<button class="btn btn-default" disabled  style="cursor: not-allowed" title="Fungsi Dalam Pembinaan"><i class="fa fa-print"></i> Cetak</button>-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-</section>
-
-</div>
-<footer class="footer text-center" style="display:none">
-  Dibangunkan bersama oleh Perbadanan Putrajaya dan <a href="https://basicinception.com" style="color:#fff">Basic Inception</a>.
-</footer>    </div>
-
-</div>
 
 
-<script src="js/app.js?id=6d4f7650cf88c1a97d34"></script>
-<script src="js/theme.js"></script>
-<script src="js/resumable.js"></script>
-<script src="js/form-manipulation.js"></script>
-<script src="js/calculate-field.js?v=1.1"></script>
-<script src="js/bootbox.min.js"></script>
-<script src="plugins/daterangepicker/moment.min.js"></script>
-<script src="js/bootstrap-datetimepicker.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
-<script>
+  <script src="js/app.js?id=6d4f7650cf88c1a97d34"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/resumable.js"></script>
+  <script src="js/form-manipulation.js"></script>
+  <script src="js/calculate-field.js?v=1.1"></script>
+  <script src="js/bootbox.min.js"></script>
+  <script src="plugins/daterangepicker/moment.min.js"></script>
+  <script src="js/bootstrap-datetimepicker.js"></script>
+  <script src="plugins/daterangepicker/daterangepicker.js"></script>
+  <script>
     // Configure/customize these variables.
     var showChar = 180; // How many characters are shown by default
     var ellipsestext = "...";

@@ -422,13 +422,11 @@
             <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
           </div>
           <div class="panel-body justify-content-center">
-            <form action="#" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center ">
-                  <button class="btn btn-primary" >Notis Ketidakpatuhan/Pematuhan</button>
-                </div>
+            <div class="box-body">
+              <div class="box-footer text-center">
+                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Ketidakpatuhan/Pematuhan</a>
               </div>
-            </form>
+            </div>
             <br>
             <form action="#" method="get">
               <div class="box-body">

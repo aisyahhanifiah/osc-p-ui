@@ -135,32 +135,26 @@
 
             <div id="bills_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="bills_length"><label>Papar <select name="bills_length" aria-controls="bills" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="bills_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="bills"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
                 <thead style="background-color: #03A9F4">
-                <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Notis</th><th class="text-center sorting_disabled" rowspan="1" colspan="1">Tajuk Notis</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Status</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nombor Notis</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Notis</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail Notis</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pemakluman Pematuhan</th></tr></thead>
+                <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Notis</th><th class="text-center sorting_disabled" rowspan="1" colspan="1">Tajuk Notis</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Status</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nombor Notis</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail Notis</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pemakluman Pematuhan</th></tr></thead>
                 <tbody>
                         
                     <tr role="row" class="odd">
                         <td class="text-center">1</td>
-                        <td class="text-center"><div style="display:none">20190724</div>24-07-2019</td>
+                        <td class="text-center"><div style="display:none">20190724</div>25-07-2019</td>
                         <td class="text-left"> Ketidakpatuhan lambat mula</td>
                         <td class="text-center">Notis Dikeluarkan</td>
-                        <td class="text-center">MPKj20190724001 </td>
-                        <td class="text-center"> - </td>
+                        <td class="text-center">MPKj20190724001-002 </td>
                         <td class="text-center"><button title="Muat turun notis"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
-                        <td width="7%" class="text-center">
-                                            <a href="#">Upload</a>
-                                        </td>
+                        <td width="7%" class="text-center"><button class="btn btn-primary" id="draft" type="submit" name="draft" value="1" >Hantar Notifikasi Pemeriksaan Interim</button></td>
                     </tr>
                     <tr role="row" class="odd">
                         <td class="text-center">1</td>
                         <td class="text-center"><div style="display:none">20190724</div>24-07-2019</td>
                         <td class="text-left"> Ketidakpatuhan tanah</td>
                         <td class="text-center">Pemakluman Pematuhan</td>
-                        <td class="text-center">MPKj20190724001 </td>
-                        <td class="text-center"> - </td>
+                        <td class="text-center">MPKj20190724001-001 </td>
                         <td class="text-center"><button title="Muat turun notis"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
-                        <td width="7%" class="text-center">
-                                            <a href="#">Upload</a>
-                                        </td>
+                        <td width="7%" class="text-center"><button class="btn btn-primary" id="draft" type="submit" name="draft" value="1" >Hantar Notifikasi Pemeriksaan Interim</button></td>
                     </tr>
                 </tbody>
             </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="bills_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (1 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="bills_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="bills_previous"><a href="#" aria-controls="bills" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="bills" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="bills_next"><a href="#" aria-controls="bills" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>

@@ -35,7 +35,7 @@
                             <td valign="top" colspan="1" class="dataTables_empty">MPKJ-001</td>
                             <td valign="top" colspan="1" class="dataTables_empty">UBAHSUAI DAN TAMBAHAN RUANG LANTAI KILANG</td>
                             <td valign="top" colspan="1" class="dataTables_empty">ORION FOOD INDUSTRIES (M) SDN. BHD.</td>
-                            <td valign="top" colspan="1" class="dataTables_empty"><a href="maklumatprojek-sp.php">Info</a></td>
+                            <td valign="top" colspan="1" class="dataTables_empty"><a href="maklumatprojek-osc.php">Info</a></td>
                             <td valign="top" colspan="1" class="dataTables_empty"><button type="submit" class="btn btn-danger btn-sm" title=" Permohonan Serentak mengandungi permohonan dibawahnya dan tidak boleh dibuang " disabled=""><i class="fa fa-trash"></i>
                             </button></td>
                         </tr>

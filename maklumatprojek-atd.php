@@ -128,9 +128,6 @@ Kebenaran Merancang
             <li class="nav-item">
                 <a class="nav-link " href="lawatantapak.php">Lawatan Tapak</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="kertasperakuan.php">Kertas Perakuan</a>
-            </li>
             <!-- <li class="nav-item">
                 <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
             </li> -->
@@ -1114,34 +1111,34 @@ Kebenaran Merancang
   </div> -->
 
 
-  <div class="card">
+  <div class="card mt-4">
     <div class="alert alert-secondary">
       <div class="panel-group">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
           </div>
-          <div class="panel-body">
-            <form action="/staff/submissions/activity/6467" method="get">
+          <div class="panel-body justify-content-center">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notifikasi</button>
+                <div class="box-footer text-center ">
+                  <button class="btn btn-primary" >Notis Ketidakpatuhan/Pematuhan</button>
                 </div>
               </div>
             </form>
             <br>
-            <form action="/staff/submissions/activity/6467" method="get">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notis</button>
+                <div class="box-footer text-center ">
+                  <button class="btn btn-primary">Notis Penahanan Pengeluaran CCC</button>
                 </div>
               </div>
             </form>
             <br>
-            <form action="/staff/submissions/bills/6467" method="get">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Arahan</button>
+                <div class="box-footer text-center">
+                  <button class="btn btn-primary">Kertas Perakuan</button>
                 </div>
               </div>
             </form>

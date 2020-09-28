@@ -124,17 +124,22 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="lawatantapak.php">Lawatan Tapak</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="kertasperakuan.php">Kertas Perakuan</a>
-                </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
                 </li> -->
               </ul>
               <div class="card">
                 <div class="alert alert-secondary">
+                  <h4 class="medium-word mb-3" style="text-decoration: underline;">Laporan Lawatan Tapak</h4>
                   <form action="http://128.199.195.92:8090/sp/draft/update-general" method="post">
-                    <input type="hidden" name="_token" value="KS3PHaUkT2QsvdLi4hMlDQEZ6bwzd0Fpq0RuQBjq">    <dl class="row">
+                    <input type="hidden" name="_token" value="KS3PHaUkT2QsvdLi4hMlDQEZ6bwzd0Fpq0RuQBjq">    
+                    <dl class="row">
+                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Tarikh & Masa Lawatan</dt>
+                      <dd class="col-sm-3  col-form-label">
+                          <input type="datetime-local" name="submission_accept_datetime" class="form-control complete-input datepicker" value="22-09-2020" required="">
+                      </dd>
+                    </dl>    
+                    <dl class="row">
                       <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Laporan Lawatan (PDF)</dt>
                       <dd class="col-sm-6  col-form-label">
                         <input type="file" name="fileToUpload" id="fileToUpload">
@@ -146,16 +151,72 @@
                         <input type="file" name="fileToUpload" id="fileToUpload">
                       </dd>
                     </dl>
+                    <dl class="row">
+                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Ulasan</dt>
+                      <dd class="col-md-8">
+                                <textarea id="review" class="form-control" name="review" rows="10" cols="80"></textarea>
+                            </dd>
+                    </dl>
                     
                     
                     <dl class="row">
                       <dt class="col-sm-3 text-md-right control-label col-form-label mb-0"></dt>
-                      <dd class="col-sm-6  col-form-label">
-                        <button type="submit" class="btn btn-primary new-submit">Simpan</button>
-                      </dd>
+                      <dd class="col-md-3 text-center">
+                                <button class="btn btn-primary" id="draft" type="submit" name="draft" value="1" style="width: 200px">Simpan Draf</button>
+                            </dd>
+                      <dt class="col-md-3 text-center">
+                                <button class="btn btn-primary confirmPublish" type="button" style="width: 200px">Hantar Ulasan</button>
+                            </dt>
                     </dl>
                     
                   </form>
+                  <br>
+                  <h4 class="medium-word mb-3" style="text-decoration: underline;">Sejarah Lawatan Tapak</h4>
+                  <div class="row">
+                    <div class="col-lg-12 justify-content-center">
+                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
+                      <thead style="background-color: #03A9F4">
+                      <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh & Masa Lawatan</th><th class="text-center sorting_disabled" width="40%" rowspan="1" colspan="1">Ulasan</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pengulas</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Kumpulan Teknikal</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jawatan</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Laporan (PDF)</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Gambar (PDF)</th></tr></thead>
+                      <tbody>
+                              
+                          <tr role="row" class="odd">
+                              <td class="text-center">1</td>
+                              <td class="text-center"><div style="display:none">20190724</div>28-09-2020 12:10 PM</td>
+                              <td class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                              <td class="text-center">PN. NORLAILY BT RAHMAN</td>
+                              <td class="text-center">Jabatan Kejuruteraan</td>
+                              <td class="text-center">JURUTERA PEMBANGUNAN KANAN</td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                          
+                          </tr></tbody>
+                  </table>
+
+                    </div>
+
+                  </div>
+                  <br>
+                  <h4 class="medium-word mb-3" style="text-decoration: underline;">Notis Pemeriksaan Interim</h4>
+                  <div class="row">
+                    <div class="col-lg-12 justify-content-center">
+                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
+                      <thead style="background-color: #03A9F4">
+                      <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nama SP</th><th class="text-center sorting_disabled" width="9%" rowspan="1" colspan="1">Tarikh Dihantar</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th>
+                      <tbody>
+                              
+                          <tr role="row" class="odd">
+                              <td class="text-center">1</td>
+                              <td class="text-center">ABDUL HAMID BIN AKUB</td>
+                              <td class="text-center">26-09-2020</td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                          
+                          </tr></tbody>
+                  </table>
+
+                    </div>
+
+                  </div>
+                      
                 </div>
               </div>
               <!-- team member's modal -->
@@ -353,34 +414,34 @@
   </div> -->
 
 
-  <div class="card">
+  <div class="card mt-4">
     <div class="alert alert-secondary">
       <div class="panel-group">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
           </div>
-          <div class="panel-body">
-            <form action="/staff/submissions/activity/6467" method="get">
+          <div class="panel-body justify-content-center">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notifikasi</button>
+                <div class="box-footer text-center ">
+                  <button class="btn btn-primary" >Notis Ketidakpatuhan/Pematuhan</button>
                 </div>
               </div>
             </form>
             <br>
-            <form action="/staff/submissions/activity/6467" method="get">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Notis</button>
+                <div class="box-footer text-center ">
+                  <button class="btn btn-primary">Notis Penahanan Pengeluaran CCC</button>
                 </div>
               </div>
             </form>
             <br>
-            <form action="/staff/submissions/bills/6467" method="get">
+            <form action="#" method="get">
               <div class="box-body">
-                <div class="box-footer text-center col-md-10 offset-md-1">
-                  <button class="btn btn-block btn-primary">Arahan</button>
+                <div class="box-footer text-center">
+                  <button class="btn btn-primary">Kertas Perakuan</button>
                 </div>
               </div>
             </form>

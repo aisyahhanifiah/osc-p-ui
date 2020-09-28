@@ -830,31 +830,28 @@ Kebenaran Merancang
                     <a data-toggle="collapse" href="#lawatan"><span style="text-decoration: underline">Laporan Lawatan Tapak</span></a>
                   </h4>
                 </div>
-                <div id="lawatan" class="panel-collapse collapse">
+
+                <div id="lawatan" class="panel-collapse ">
+
                   <div class="panel-body">
-                    <div class="modal-body text-center">
-                      <table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
-                                  <thead style="background-color: #03A9F4">
-                                    <tr role="row">
-                                      <th class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1"  >Laporan Lawatan Tapak</th>
-                                      <th  class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1"  >Gambar Lawatan Tapak</th>
-                                      <th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Ulasan</th>
-                                  </thead>
-                                  <tbody>
-
-
-
-                                    <tr role="row" class="odd">
-                                      <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-                                      <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
-                                    
-                                    </tr></tbody>
-                                  </table>
-
+                    <div class="box-body form-horizontal">
+                              <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="bills_info">
+                      <thead style="background-color: #03A9F4">
+                      <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh & Masa Lawatan</th><th class="text-center sorting_disabled" width="40%" rowspan="1" colspan="1">Ulasan</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pengulas</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Kumpulan Teknikal</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jawatan</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Laporan (PDF)</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Gambar (PDF)</th></tr></thead>
+                      <tbody>
+                              
+                          <tr role="row" class="odd">
+                              <td class="text-center">1</td>
+                              <td class="text-center"><div style="display:none">20190724</div>28-09-2020 12:10 PM</td>
+                              <td class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                              <td class="text-center">PN. NORLAILY BT RAHMAN</td>
+                              <td class="text-center">Jabatan Kejuruteraan</td>
+                              <td class="text-center">JURUTERA PEMBANGUNAN KANAN</td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                           
-                                <br>
-                                <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button>
+                          </tr></tbody>
+                  </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
                               </div>
                   </div>
                 </div>
@@ -894,7 +891,61 @@ Kebenaran Merancang
 </div>
 
 <div class="col-lg-3">
+  <div class="card">
+                  <div class="alert alert-secondary">
+                      <form action="http://128.199.195.92:8090/staff/submission/verified" method="post">
+                          <input type="hidden" name="_token" value="AWu4FBVnCRn6xPR1NumrGOsUC5MkoddYp0hP703Q">                        <div class="panel-group">
+                              <div class="panel panel-default">
+                                  <div class="panel-heading text-center">
+                                      <h4 class="panel-title"><span style="text-decoration: underline">Tindakan OSC</span></h4>
+                                  </div>
+                                  <div class="panel-body">
+                                                                          <div class="form-group">
+                                          <label for="" class="control-label">Status Projek</label>
+                                          <select name="submission_status_id" id="complete_submission_status_id" class="form-control" required="" >
+                                              <option value="">Sila Pilih</option>
+                                              <option value="4" selected="">Lengkap</option>
+                                              <option value="3">Tidak Lengkap</option>
+                                          </select>
+                                                                                  <input type="hidden" name="submission_status_id" value="5">
+                                                                              </div>
+                                                                                                              <div class="form-group complete" style="">
+                                          
+                                      </div>
+                                                                          <div class="form-group complete" style="">
+                                          <label for="" class="control-label">Fail Rujukan OSC</label>
+                                          
+                                          <input type="text" name="osc_file_reference" id="osc_file_reference" class="form-control complete-input" required="" value="MPKj/OSC/B01/2/206-2020">
+                                      </div>
+                                                                          <input type="hidden" name="kpkt_code_id" value="0">
+                                      
+                                      <div class="form-group complete" style="">
+                                          <label for="" class="control-label">Tarikh Diterima</label>
+                                          <input type="text" name="submission_accept_datetime" class="form-control complete-input datepicker" value="22-09-2020" required="">
+                                      </div>
+                                                                          <div class="form-group complete text-center" style="padding-bottom:10px; ">
+                                          
+                                      </div>
+                                                                          <div class="form-group complete text-center" style="padding-bottom:10px; ">
+                                          <div class="col-md-11 checkbox">
+                                              <input type="checkbox" id="hardcopy_received" class=" complete-input" value="1" checked="" >
+                                              <label for="" class="control-label">Dokumen Lengkap Diterima</label>
+                                          </div>
+                                      </div>
 
+                                      <div class="box-footer text-center col-md-10 offset-md-1">
+                                          <input type="hidden" name="submission_id" value="13221">
+                                          <button class="btn btn-sm btn-block btn-primary" id="status-update">KEMASKINI</button>
+                                                                                  <br>
+                                          <a href="/staff/surat-akuan-penerimaan/13221" target="_blank" class="btn btn-sm btn-block btn-default"> <i class="fa fa-print"></i> Cetak Surat Akuan Penerimaan</a>
+                                                                              </div>
+
+                                                                      </div>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
 
   <div class="card">
     <div class="alert alert-secondary">
@@ -906,7 +957,7 @@ Kebenaran Merancang
           <div class="panel-body">
               <div class="box-body">
                 <div class="box-footer text-center col-md-10 offset-md-1">
-                  <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi</a>
+                  <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi Mula Kerja</a>
                 </div>
               </div>
             <br>

@@ -1,5 +1,5 @@
-<?php include "header.php" ?>
-<?php include "sidebar.php" ?>
+<?php include "header-sp.php" ?>
+<?php include "sidebar-sp.php" ?>
 
 <div class="page-wrapper">
     <div class="container-fluid">
@@ -12,13 +12,13 @@
         </ol>
         <ul class="nav nav-tabs">
             <li class="nav-item ">
-                <a class="nav-link " href="maklumatprojek.php">Maklumat Am</a>
+                <a class="nav-link " href="maklumatprojek-sp.php">Maklumat Am</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjatanah.php">Lampiran Kerja Tanah</a>
+                <a class="nav-link " href="lampirankerjatanah.php">Senarai Semak Dokumen Kerja Tanah</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjabangunan.php">Lampiran Kerja Bangunan</a>
+                <a class="nav-link " href="lampirankerjabangunan.php">Senarai Semak Dokumen Kerja Bangunan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="semak.php">Semak &amp; Hantar</a>

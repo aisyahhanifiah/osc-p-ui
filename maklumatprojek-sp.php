@@ -18,10 +18,10 @@
                 <a class="nav-link active" href="maklumatprojek-sp.php">Maklumat Am</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjatanah.php">Lampiran Kerja Tanah</a>
+                <a class="nav-link " href="lampirankerjatanah.php">Senarai Semak Dokumen Kerja Tanah</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="lampirankerjabangunan.php">Lampiran Kerja Bangunan</a>
+                <a class="nav-link " href="lampirankerjabangunan.php">Senarai Semak Dokumen Kerja Bangunan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
@@ -172,7 +172,7 @@
                     <div class="box-body form-horizontal">
                         <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="submissions" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="submissions_info">
                             <thead style="background-color: #03A9F4">
-                                <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Lanjutan" style="width: 54px;">Lanjutan</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th></tr>
+                                <tr role="row"><th width="12%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Tarikh Diterima: activate to sort column ascending" style="width: 70px;">Tarikh Diterima</th><th width="28%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Jenis Permohonan: activate to sort column ascending" style="width: 216px;">Jenis Permohonan</th><th width="20%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="No Permohonan: activate to sort column ascending" style="width: 143px;">No Permohonan</th><th width="25%" class="text-center sorting" tabindex="0" aria-controls="submissions" rowspan="1" colspan="1" aria-label="Koordinator: activate to sort column ascending" style="width: 188px;">Koordinator</th><!-- <th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Lanjutan" style="width: 54px;">Lanjutan</th> --><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 55px;">Info</th></tr>
                             </thead>
                             <tbody>
 
@@ -182,7 +182,7 @@
                                     <td>Permohonan Kebenaran Merancang</td>
                                     <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="PERMOHONAN KEBENARAN MERANCANG PELAN SUSUNATUR BAGI CADANGAN TAMBAHAN SEBUAH GUDANG (WAREHOUSE) DENGAN SATU TINGKAT UNIT KAWALAN QUALITY (UNIT QC), NEW REST AREA, SCHEDULED WASTE STORAGE DAN DIESEL SKID TANK,DI ATAS LOT 1913 (PT 59), LOT 1915 (PT 80), LOT 1916 (PT 81) DAN PT 350, DAERAH ULU LANGAT,  MUKIM HULU SEMENYIH,  BERALAMAT DI LOT 1238, BATU 23, JALAN KACHAU, SUNGAI LALANG, SEMENYIH, SELANGOR DARUL EHSAN UNTUK TETUAN YOKOHAMA BATTERIES SDN. BHD.">MPKJ-KM20200129-001</span></td>
                                     <td class="text-center">Jabatan Perancangan Pembangunan</td>
-                                    <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Perbaharui</button><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Pindaan</button></td>
+                                    <!-- <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Perbaharui</button><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Pindaan</button></td> -->
                                     <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Info</button></td>
 
                                 </tr><tr role="row" class="even">
@@ -190,7 +190,7 @@
                                     <td>Permohonan Permit Sementara</td>
                                     <td class="text-center"><span style="cursor:help; color: darkblue" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="CADANGAN PERMIT BANGUNAN SEMENTARA BUMBUNG TERBUKA KEPADA KILANG PERUSAHAAN BERKEMBAR 3 TINGKAT SEDIADA DI ATAS LOT 5&amp;6 KILANG PERUSAHAAN SESEBUAH 3 TINGKAT SEDIADA DI ATAS LOT 7, JALAN CJ16/1A, KAWASAN PERINDUSTRIAN CHERAS JAYA, 43200 CHERAS MUKIM KAJANG, DAERAH HULU LANGAT, SELANGOR DARUL EHSAN UNTUK TETUAN AURAVILLA PROJECT SDN BHD">MPKJ-PS20200206-003</span></td>
                                     <td class="text-center">Jabatan Kawalan Bangunan</td>
-                                    <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Perbaharui</button><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Pindaan</button></td>
+                                    <!-- <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Perbaharui</button><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="4015">Pindaan</button></td> -->
                                     <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionModal" value="5124">Info</button></td>
 
                                 </tr></tbody>

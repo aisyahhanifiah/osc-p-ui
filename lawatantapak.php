@@ -174,7 +174,7 @@
                   <h4 class="medium-word mb-3" style="text-decoration: underline;">Sejarah Lawatan Tapak</h4>
                   <div class="row">
                     <div class="col-lg-12 justify-content-center">
-                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
+                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="bills_info">
                       <thead style="background-color: #03A9F4">
                       <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh & Masa Lawatan</th><th class="text-center sorting_disabled" width="40%" rowspan="1" colspan="1">Ulasan</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Pengulas</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Kumpulan Teknikal</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jawatan</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Laporan (PDF)</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Gambar (PDF)</th></tr></thead>
                       <tbody>
@@ -196,23 +196,41 @@
 
                   </div>
                   <br>
-                  <h4 class="medium-word mb-3" style="text-decoration: underline;">Notis Pemeriksaan Interim</h4>
+                  <h4 class="medium-word mb-3" style="text-decoration: underline;">Notis Pemeriksaan dari SP</h4>
                   <div class="row">
-                    <div class="col-lg-12 justify-content-center">
-                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
+                    <div class="col-lg-12 justify-content-center text-center">
+                      <table id="bills" class="table table-responsive table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="bills_info">
                       <thead style="background-color: #03A9F4">
-                      <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nama SP</th><th class="text-center sorting_disabled" width="9%" rowspan="1" colspan="1">Tarikh Dihantar</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th>
+                      <tr role="row">
+                        <th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th>
+                        <th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nama SP</th>
+                        <th class="text-center sorting_disabled" width="9%" rowspan="1" colspan="1">Tarikh Dihantar</th>
+                        <th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Lawatan Tapak</th>
+                        <th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Jenis Pemeriksaan</th>
+                        <th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th>
                       <tbody>
                               
                           <tr role="row" class="odd">
                               <td class="text-center">1</td>
                               <td class="text-center">ABDUL HAMID BIN AKUB</td>
-                              <td class="text-center">26-09-2020</td>
+                              <td class="text-center">27-09-2020</td>
+                              <td class="text-center"><input type="checkbox" value="1"></td>
+                              <td class="text-center">Pemeriksaan Akhir 1</td>
                               <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                           
-                          </tr></tbody>
+                          </tr>  
+                          <tr role="row" class="odd">
+                              <td class="text-center">2</td>
+                              <td class="text-center">ABDUL HAMID BIN AKUB</td>
+                              <td class="text-center">26-09-2020</td>
+                              <td class="text-center"><input type="checkbox" value="1" checked ></td>
+                              <td class="text-center">Pemeriksaan Interim</td>
+                              <td class="text-center"><button title="Muat turun"><a href="#" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                          
+                          </tr>
+                        </tbody>
                   </table>
-
+                    <button class="btn btn-primary" id="draft" type="submit" name="draft" value="1" style="width: 200px">Kemaskini</button>
                     </div>
 
                   </div>
@@ -424,17 +442,9 @@
           <div class="panel-body justify-content-center">
             <div class="box-body">
               <div class="box-footer text-center">
-                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Ketidakpatuhan/Pematuhan</a>
+                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Bertulis</a>
               </div>
             </div>
-            <br>
-            <form action="#" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center ">
-                  <button class="btn btn-primary">Notis Penahanan Pengeluaran CCC</button>
-                </div>
-              </div>
-            </form>
             <br>
             <form action="#" method="get">
               <div class="box-body">

@@ -1,5 +1,5 @@
-<?php include "header-atd.php" ?>
-<?php include "sidebar-atd.php" ?>
+<?php include "header-osc.php" ?>
+<?php include "sidebar-osc.php" ?>
 
 
 Kebenaran Merancang
@@ -18,9 +18,9 @@ Kebenaran Merancang
 
     </div>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="dashboard-atd.php"><i class="uil uil-home"></i>Laman Utama</a></li>
-      <li class="breadcrumb-item"><a href="senaraiprojek-atd.php">Senarai Projek</a></li>
-      <li class="breadcrumb-item"><a href="maklumatprojek-atd.php">Maklumat Projek</a></li>
+      <li class="breadcrumb-item"><a href="dashboard-osc.php"><i class="uil uil-home"></i>Laman Utama</a></li>
+      <li class="breadcrumb-item"><a href="senaraiprojek-osc.php">Senarai Projek</a></li>
+      <li class="breadcrumb-item"><a href="maklumatprojek-osc.php">Maklumat Projek</a></li>
       <li class="breadcrumb-item active">Notis Ketidakpatuhan/Patuhan</li>
     </ol>
 
@@ -122,62 +122,7 @@ Kebenaran Merancang
                 <div class="alert alert-secondary">
                     <div class="panel-group">
                         <div class="panel panel-default">
-                            <div class="panel-heading">
-                               <h4 class="medium-word mb-3" style="text-decoration: underline;">Notis Ketidakpatuhan/Patuhan</h4>
-
-                               <form action="http://128.199.195.92:8090/sp/draft/update-general" method="post">
-                    <input type="hidden" name="_token" value="KS3PHaUkT2QsvdLi4hMlDQEZ6bwzd0Fpq0RuQBjq">    
-                    <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">No. Permohanan</dt>
-                      <dd class="col-sm-3  col-form-label">
-                        <select id="acceptance_status" class="form-control" name="acceptance_status" required="">
-                                        <option value="90">MPKJ-KM20200129-001</option>
-                                        <option value="80" >MPKJ-PS20200206-003</option>
-                                        </select>
-                      </dd>
-                      </dl> 
-                      <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Nama Penerima (SP)</dt>
-                      <dd class="col-sm-3  col-form-label">
-                        <input type="text" class="form-control" placeholder="" value="ABDUL HAMID BIN AKUB" disabled="">
-                      </dd>
-                    </dl>    
-                    <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Nombor Notis</dt>
-                      <dd class="col-sm-3  col-form-label">
-                        <input type="text" class="form-control" placeholder="" value="MPKJ-KM20200129-002" disabled="">
-                      </dd>
-                    </dl>  
-                    <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Jenis Notis</dt>
-                      <dd class="col-sm-3  col-form-label">
-                        <select id="acceptance_status" class="form-control" name="acceptance_status" required="">
-                <option value="90">Ketidakpatuhan</option>
-                <option value="80" >Patuhan</option>
-                <option value="80" >Pemeriksaan Akhir 1</option>
-                <option value="80" >Pemeriksaan Akhir 2</option>
-                </select>
-                      </dd>
-                    </dl>
-                    
-                    <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0">Butiran Ketidakpatuhan/Cadangan Pemajuan</dt>
-                      <dd class="col-md-8">
-                                <textarea id="review" class="form-control" name="review" rows="10" cols="80"></textarea>
-                            </dd>
-                    </dl>
-                    
-                    
-                    <dl class="row">
-                      <dt class="col-sm-3 text-md-right control-label col-form-label mb-0"></dt>
-                    
-                      <dt class="col-md-3">
-                                <button class="btn btn-primary confirmPublish" type="button" style="width: 200px">Hantar</button>
-                            </dt>
-                    </dl>
-                    
-                  </form>
-                  <br></div>
+                            
                                <h4 class="medium-word mb-3" style="text-decoration: underline;">Senarai Notis Ketidakpatuhan/Patuhan</h4>
                             
                                 <div id="bills_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="bills_length"><label>Papar <select name="bills_length" aria-controls="bills" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="bills_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="bills"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bills" class="table table-bordered table-striped dataTable no-footer"  role="grid" aria-describedby="bills_info">
@@ -193,7 +138,8 @@ Kebenaran Merancang
                         <td class="text-center">MPKj20190724001-002 </td>
                         <td class="text-center">ABDUL HAMID BIN AKUB</td>
                         <td class="text-center">PN. NORLAILY BT RAHMAN</td>
-                              <td class="text-center">Jabatan Kejuruteraan</td><td class="text-center"><input type="checkbox" value="1" disabled="" ></td>
+                              <td class="text-center">Jabatan Kejuruteraan</td>
+                              <td class="text-center"><input type="checkbox" value="1" disabled="" ></td>
                         <td class="text-center"><button title="Muat turun notis"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                         
                     </tr>
@@ -205,7 +151,8 @@ Kebenaran Merancang
                         <td class="text-center">MPKj20190724001-001 </td>
                         <td class="text-center">ABDUL HAMID BIN AKUB</td>
                         <td class="text-center">PN. NORLAILY BT RAHMAN</td>
-                              <td class="text-center">Jabatan Kejuruteraan</td><td class="text-center"><input type="checkbox" value="1" checked disabled=""></td>
+                              <td class="text-center">Jabatan Kejuruteraan</td>
+                              <td class="text-center"><input type="checkbox" value="1" checked disabled=""></td>
                         <td class="text-center"><button title="Muat turun notis"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                         
                     </tr>

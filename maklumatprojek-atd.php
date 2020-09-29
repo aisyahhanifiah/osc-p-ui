@@ -1121,17 +1121,9 @@ Kebenaran Merancang
           <div class="panel-body justify-content-center">
             <div class="box-body">
               <div class="box-footer text-center">
-                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Ketidakpatuhan/Pematuhan</a>
+                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Bertulis</a>
               </div>
             </div>
-            <br>
-            <form action="#" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center ">
-                  <button class="btn btn-primary">Notis Penahanan Pengeluaran CCC</button>
-                </div>
-              </div>
-            </form>
             <br>
             <form action="#" method="get">
               <div class="box-body">

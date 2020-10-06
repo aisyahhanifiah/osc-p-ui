@@ -107,20 +107,20 @@
             <div class="step "> <span> 1. Pendaftaran <br></span> </div>
             <div class="step "> <span> 2. Kelulusan<br></span> </div>
             <div class="step "> <span> 3. Pemberitahuan Mula Kerja<br></span></div>
-            <div class="step "> <a href=""><span> 4. Pemeriksaan Interim<br></span></a> </div>
-            <div class="step "> <a href=""><span> 5. Pemeriksaan Akhir CCC</span></a> </div>
+            <div class="step "> <span> 4. Pemeriksaan Interim<br></span></div>
+            <div class="step "> <span> 5. Pemeriksaan Akhir CCC</span></div>
             <div class="step "> <a href=""><span> 6. Pendepositan CCC</span></a> </div>
         </div>
         <br>
         <ul class="nav nav-tabs">
             <li class="nav-item ">
-                <a class="nav-link active" href="maklumatprojek-sp-p4.php">Maklumat Am</a>
+                <a class="nav-link active" href="maklumatprojek-sp-p6.php">Maklumat Am</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="notisbertulis.php">Notis/Arahan Bertulis</a>
+                <a class="nav-link " href="lampiranccc.php">Lampiran Borang Perakuan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="maklumatfi.php">Maklumat Fi & Bil</a>
+                <a class="nav-link " href="semak-p6.php">Semak & Hantar</a>
             </li>
         </ul>
         <div class="card">

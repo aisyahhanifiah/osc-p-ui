@@ -121,17 +121,7 @@ Kebenaran Merancang
           <br>                        
           <div class="row">
             <div class="col-lg-9">
-              <ul class="nav nav-tabs">
-            <li class="nav-item ">
-                <a class="nav-link active" href="maklumatprojek-atd.php">Maklumat Am</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="lawatantapak.php">Lawatan Tapak</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
-            </li> -->
-        </ul>
+              
               <div class="card">
                 <div class="alert alert-secondary">
                   <div class="row">
@@ -1111,7 +1101,7 @@ Kebenaran Merancang
   </div> -->
 
 
-  <div class="card mt-4">
+  <div class="card">
     <div class="alert alert-secondary">
       <div class="panel-group">
         <div class="panel panel-default">
@@ -1121,17 +1111,21 @@ Kebenaran Merancang
           <div class="panel-body justify-content-center">
             <div class="box-body">
               <div class="box-footer text-center">
-                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Bertulis</a>
+                <a href="aktivitiprojek-atd.php" class="btn btn-primary">Aktiviti</a>
               </div>
             </div>
             <br>
-            <form action="#" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center">
-                  <button class="btn btn-primary">Kertas Perakuan</button>
-                </div>
+            <div class="box-body">
+              <div class="box-footer text-center">
+                <a href="lawatantapak.php" class="btn btn-primary">Lawatan Tapak</a>
               </div>
-            </form>
+            </div>
+            <br>
+            <div class="box-body">
+              <div class="box-footer text-center">
+                <a href="maklumatkompaun.php" class="btn btn-primary">Maklumat Kompaun</a>
+              </div>
+            </div>
 
 
           </div>

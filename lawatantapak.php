@@ -117,17 +117,7 @@
           <br>                        
           <div class="row">
             <div class="col-lg-9">
-              <ul class="nav nav-tabs">
-                <li class="nav-item ">
-                  <a class="nav-link " href="maklumatprojek-atd.php">Maklumat Am</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="lawatantapak.php">Lawatan Tapak</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
-                </li> -->
-              </ul>
+              
               <div class="card">
                 <div class="alert alert-secondary">
                   <h4 class="medium-word mb-3" style="text-decoration: underline;">Laporan Lawatan Tapak</h4>
@@ -432,27 +422,31 @@
   </div> -->
 
 
-  <div class="card mt-4">
+  <div class="card">
     <div class="alert alert-secondary">
       <div class="panel-group">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title text-center"><span style="text-decoration: underline">Tindakan Lanjut</span></h4>
           </div>
-          <div class="panel-body justify-content-center">
+         <div class="panel-body justify-content-center">
             <div class="box-body">
               <div class="box-footer text-center">
-                <a href="notisketidakpatuhan.php" class="btn btn-primary">Notis Bertulis</a>
+                <a href="aktivitiprojek-atd.php" class="btn btn-primary">Aktiviti</a>
               </div>
             </div>
             <br>
-            <form action="#" method="get">
-              <div class="box-body">
-                <div class="box-footer text-center">
-                  <button class="btn btn-primary">Kertas Perakuan</button>
-                </div>
+            <div class="box-body">
+              <div class="box-footer text-center">
+                <a href="lawatantapak.php" class="btn btn-primary">Lawatan Tapak</a>
               </div>
-            </form>
+            </div>
+            <br>
+            <div class="box-body">
+              <div class="box-footer text-center">
+                <a href="maklumatkompaun.php" class="btn btn-primary">Maklumat Kompaun</a>
+              </div>
+            </div>
 
 
           </div>

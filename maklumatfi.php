@@ -120,36 +120,34 @@
                 <a class="nav-link " href="notisbertulis.php">Notis/Arahan Bertulis</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="maklumatfi.php">Maklumat Fi & Bil</a>
+                <a class="nav-link active" href="maklumatfi.php">Maklumat Kompaun</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="semak.php">Semak &amp; Hantar</a>
             </li>
         </ul>
         <div class="card">
             <div class="alert alert-secondary">
                             <br>
             <h4 class="panel-title ml-3">
-                <span style="text-decoration: underline">Senarai Bil</span>
+                <span style="text-decoration: underline">Senarai Kompaun</span>
             </h4>
 
             <div id="bills_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="bills_length"><label>Papar <select name="bills_length" aria-controls="bills" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="bills_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="bills"></label></div></div></div><div class="row"><div class="col-sm-12">
                 <table id="bills" class="table table-bordered table-striped dataTable no-footer" style="font-weight: bolder" role="grid" aria-describedby="bills_info">
                 <thead style="background-color: #03A9F4">
-                <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Bil</th><th class="text-center sorting_disabled" rowspan="1" colspan="1">Tajuk Bil</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Amaun (MYR)</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Status</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nombor Bil</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Pembayaran</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">&nbsp;</th></tr></thead>
+                <tr role="row"><th width="3%" class="text-center sorting_disabled" rowspan="1" colspan="1">#</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Kompaun</th><th class="text-center sorting_disabled" rowspan="1" colspan="1">Tajuk Kompaun</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">Amaun (MYR)</th><th width="15%" class="text-center sorting_disabled" rowspan="1" colspan="1">Status</th><th width="13%" class="text-center sorting_disabled" rowspan="1" colspan="1">Nombor Kompaun</th><th width="9%" class="text-center sorting_disabled" rowspan="1" colspan="1">Tarikh Pembayaran</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1">Fail</th><th width="10%" class="text-center sorting_disabled" rowspan="1" colspan="1">&nbsp;</th></tr></thead>
                 <tbody>
                         
                     <tr role="row" class="odd">
                         <td class="text-center">1</td>
                         <td class="text-center"><div style="display:none">20190724</div>24-07-2019</td>
-                        <td class="text-left">Fi Ketidakpatuhan</td>
-                        <td class="text-center">48,540.00</td>
+                        <td class="text-left">Ketidakpatuhan</td>
+                        <td class="text-center">780.00</td>
                         <td class="text-center">Bayaran Penuh</td>
                         <td class="text-center">MPKj20190724001 </td>
                         <td class="text-center"> - </td>
-                        <td class="text-center"><button title="Muat turun Bil"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
+                        <td class="text-center"><button title="Muat turun Kompaun"><a href="/sp/bill/29/print" target="_blank"> <i class="uil uil-file-download-alt"></i></a></button></td>
                         <td width="7%" class="text-center">
-                                            Bil Selesai
+                                            Kompaun Selesai
                                         </td>
                     </tr></tbody>
             </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="bills_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (1 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="bills_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="bills_previous"><a href="#" aria-controls="bills" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="bills" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="bills_next"><a href="#" aria-controls="bills" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
@@ -175,7 +173,7 @@
                         <td class="text-center">24 Jul 2019 16:02:25</td>
                         <td class="text-center">MPKj20190724001</td>
                         <td class="text-center">40002251</td>
-                        <td class="text-center">48,540.00</td>
+                        <td class="text-center">780.00</td>
                         <td class="text-center"><button title="Muat turun Resit"><a href="/sp/bill/2/printResit" target="_blank"><i class="uil uil-file-download-alt"></i></a></button></td>
                     </tr>
                     </tbody>

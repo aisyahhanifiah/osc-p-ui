@@ -865,11 +865,11 @@ Kebenaran Merancang
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h4 class="panel-title text-center">
-                        <a data-toggle="collapse" href="#lawatan"><span style="text-decoration: underline">Notis Bertulis</span></a>
+                        <a data-toggle="collapse" href="#notisbertulis"><span style="text-decoration: underline">Notifikasi Pemeriksaan</span></a>
                       </h4>
                     </div>
 
-                    <div id="lawatan" class="panel-collapse collapse">
+                    <div id="notisbertulis" class="panel-collapse collapse">
 
                       <div class="panel-body">
                         <div class="box-body form-horizontal">
@@ -908,32 +908,6 @@ Kebenaran Merancang
                                 </tbody>
                               </table>
                             </div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="alert alert-secondary">
-                  <div class="panel-group">
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title text-center">
-                          <a data-toggle="collapse" href="#perakuan"><span style="text-decoration: underline">Kertas Perakuan</span></a>
-                        </h4>
-                      </div>
-                      <div id="perakuan" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          <div class="modal-body text-center">
-                            <div class="row">
-                              <a href="#" class="control-label col-md-12">Download Kertas Perakuan Lengkap PDF FILE</a>
-
-                            </div>
-
-                            <!-- <button  ref="#" data-toggle="modal" data-target="#suratmaklum" type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Edar Surat Pemakluman Kepada Semua Agensi</button> -->
                           </div>
                         </div>
                       </div>
@@ -1012,19 +986,18 @@ Kebenaran Merancang
                       </div>
                       <div class="panel-body text-center">
                         <div class="box-body">
+                          <div class="box-footer text-center">
+                            <a href="aktivitiprojek-osc.php" class="btn btn-primary">Aktiviti</a>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="box-body">
                           <div class="box-footer text-center col-md-10 offset-md-1">
                             <a href="notifikasi-osc.php" class="btn btn-block btn-primary">Notifikasi Mula Kerja</a>
                           </div>
                         </div>
                         
-                        <br>
-                        <form action="" method="get">
-                          <div class="box-body">
-                            <div class="box-footer text-center">
-                              <a href="" class="btn btn-primary">Notis Penahanan Pengeluaran CCC</a>
-                            </div>
-                          </div>
-                        </form>
+                        
 
 
                       </div>

@@ -120,7 +120,7 @@
                 <a class="nav-link active" href="notisbertulis.php">Notis/Arahan Bertulis</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="maklumatfi.php">Maklumat Fi & Bil</a>
+                <a class="nav-link " href="maklumatfi.php">Maklumat Kompaun</a>
             </li>
         </ul>
         <div class="card">

@@ -6,9 +6,9 @@
                   <h3 class="big-word mb-3">Aktiviti (MPKJ-KM20201006-004)</h3>
 
       <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="dashboard-atd.php"><i class="uil uil-home"></i>Laman Utama</a></li>
-          <li class="breadcrumb-item"><a href="senaraiprojek-atd.php">Senarai Projek</a></li>
-          <li class="breadcrumb-item"><a href="maklumatprojek-atd.php">Butiran</a></li>
+          <li class="breadcrumb-item"><a href="dashboard-osc.php"><i class="uil uil-home"></i>Laman Utama</a></li>
+          <li class="breadcrumb-item"><a href="senaraiprojek-osc.php">Senarai Projek</a></li>
+          <li class="breadcrumb-item"><a href="maklumatprojek-osc.php">Butiran</a></li>
           <li class="breadcrumb-item active">Senarai Aktiviti</li>
       </ol>
 
@@ -152,6 +152,7 @@
                                                             <option value="3014|1">Surat Rayuan Lanjutan Tempoh Rayuan</option>
                                                             <option value="3015|1">Laporan Pemeriksaan Tapak CCC</option>
                                                             <option value="3016|1">Surat Kompaun</option>
+                                                            <option value="3016|1">Notis Penahanan Keluar CCC</option>
                                                             <option value="100000|1">Lain-lain Aktiviti/Dokumen</option>
                                                     </select>
                                             </div>

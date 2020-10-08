@@ -1,5 +1,5 @@
-<?php include "header-osc.php" ?>
-<?php include "sidebar-osc.php" ?>
+<?php include "header-atd.php" ?>
+<?php include "sidebar-atd.php" ?>
 
 
 Kebenaran Merancang
@@ -7,282 +7,115 @@ Kebenaran Merancang
 
 <div class="page-wrapper">
   <div class="container-fluid">
-    <!-- check if page pointed from archive applications page -->
+                  <h3 class="big-word mb-3">Maklumat Kompaun (MPKJ-001/20)</h3>
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="dashboard-atd.php"><i class="uil uil-home"></i>Laman Utama</a></li>
+          <li class="breadcrumb-item"><a href="senaraiprojek-atd.php">Senarai Projek</a></li>
+          <li class="breadcrumb-item"><a href="maklumatprojek-atd.php">Butiran</a></li>
+          <li class="breadcrumb-item active">Maklumat Kompaun</li>
+      </ol>
 
-    <div class="row">
-      <div class="col-md-8">
-        <h3 class="big-word mb-3">Maklumat Projek</h3>
-      </div>
-      <div class="col-md-4 big-word text-right">
-      </div>
-
-    </div>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="dashboard-osc.php"><i class="uil uil-home"></i>Laman Utama</a></li>
-      <li class="breadcrumb-item"><a href="senaraiprojek-osc.php">Senarai Projek</a></li>
-      <li class="breadcrumb-item "><a href="maklumatprojek-osc.php">Maklumat Projek</a></li>
-      <li class="breadcrumb-item active">Notifikasi</li>
-    </ol>
-
-    <section class="content">
-      <style>
-        .arrow-steps .step {
-         font-size: 14px;
-         text-align: center;
-         color: #666;
-         cursor: default;
-         margin: 0 3px;
-         padding: 10px 10px 10px 30px;
-         min-width: 180px;
-         float: left;
-         position: relative;
-         background-color: #d9e3f7;
-         -webkit-user-select: none;
-         -moz-user-select: none;
-         -ms-user-select: none;
-         user-select: none;
-         transition: background-color 0.2s ease;
-       }
-
-       .arrow-steps .step:after,
-       .arrow-steps .step:before {
-         content: " ";
-         position: absolute;
-         top: 0;
-         right: -17px;
-         width: 0;
-         height: 0;
-         border-top: 19px solid transparent;
-         border-bottom: 17px solid transparent;
-         border-left: 17px solid #d9e3f7;
-         z-index: 2;
-         transition: border-color 0.2s ease;
-       }
-
-       .arrow-steps .step:before {
-         right: auto;
-         left: 0;
-         border-left: 17px solid #fff;
-         z-index: 0;
-       }
-
-       .arrow-steps .step:first-child:before {
-         border: none;
-       }
-
-       .arrow-steps .step:first-child {
-         border-top-left-radius: 4px;
-         border-bottom-left-radius: 4px;
-       }
-
-       .arrow-steps .step span {
-         position: relative;
-       }
-
-       .arrow-steps .step span:before {
-         opacity: 0;
-         content: "✔";
-         position: absolute;
-         top: -2px;
-         left: -20px;
-       }
-
-       .arrow-steps .step.done span:before {
-         opacity: 1;
-         -webkit-transition: opacity 0.3s ease 0.5s;
-         -moz-transition: opacity 0.3s ease 0.5s;
-         -ms-transition: opacity 0.3s ease 0.5s;
-         transition: opacity 0.3s ease 0.5s;
-       }
-
-       .arrow-steps .step.current {
-         color: #fff;
-         background-color: #23468c;
-       }
-
-       .arrow-steps .step.current a{
-         color: #fff;
-       }
-
-       .arrow-steps .step.current:after {
-         border-left: 17px solid #23468c;
-       }
-
-       .clearfix:after {
-        clear: both;
-        content: "";
-        display: block;
-        height: 0;
-      }
-    </style>
-        <!-- <div class="arrow-steps clearfix">
-            <div class="step  current "> <span> 1. Pendaftaran <br></span> </div>
-            <div class="step "> <a href="https://oscstaging.kpkt.gov.my/staff/submissions/detail/6467"><span> 2. Kelulusan<br></span> </a></div>
-          </div> -->
-          <br> 
+      <section class="content">
+          
+          
           <div class="card">
-            <div class="alert alert-secondary">
-              <div class="panel-group">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <span style="text-decoration: underline">Senarai Agensi Dalaman Terlibat</span>
-                    </h4>
-                  </div>
-                  <div id="general" class="panel-collapse collapse show">
-                    <div class="panel-body">
-                      <table id="bills" class="table table-bordered table-striped">
-                        <thead style="background-color: #03A9F4">
-                          <tr><th width="3%" class="text-center">#</th>
-                            <th class="text-center">Nama Agensi</th>
-                            <th class="text-center">Nama Penerima</th>
-                            <th width="15%" class="text-center">Tarikh Dihantar</th>
-                            <th width="13%" class="text-center">Hantar Notifikasi</th>
-                            <th width="5%" class="text-center">Fail</th>
-                          </tr></thead>
-                          <tbody>
-                            <tr>
-                              <td class="text-center">1</td>
-                              <td class="text-left">Jabatan Kawalan Bangunan</td>
-                              <td class="text-center">IR. FADILAH BT RAZALI</td>
-                              <td class="text-center">-</td>
-                              <td class="text-center"><button class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#spModal">Hantar</button></td>
-                              <td class="text-center">-</td>
-
-                              <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-left">Jabatan Penilaian & Pengurusan Harta</td>
-                                <td class="text-center">EN. ABDUL HAIZUL FAIZAL B. ABDUL HAMID</td>
-                                <td class="text-center">14/09/2020</td>
-                                <td class="text-center"><button class="btn btn-block btn-primary" disabled>Hantar</button></td>
-
-                                <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-
-                              </tr>
-                            </tbody>
-                          </table>
-                          <div class="row">
-                            <div class="col-sm-12 text-center">
-                              <a href="" class="btn btn-primary">Daftar Agensi Baru</a>
-                            </div>
+              <div class="alert alert-secondary">
+                  <div class="panel-group">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                              <h4 class="panel-title">
+                                  <span style="text-decoration: underline">Senarai Bil</span>
+                              </h4>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          <br> 
-          <div class="card">
-            <div class="alert alert-secondary">
-              <div class="panel-group">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <span style="text-decoration: underline">Senarai Agensi Luaran Terlibat</span>
-                    </h4>
-                  </div>
-                  <div id="general" class="panel-collapse collapse show">
-                    <div class="panel-body">
-                      <table id="bills" class="table table-bordered table-striped">
-                        <thead style="background-color: #03A9F4">
-                          <tr><th width="3%" class="text-center">#</th>
-                            <th class="text-center">Nama Agensi</th>
-                            <th class="text-center">Nama Penerima</th>
-                            <th width="15%" class="text-center">Tarikh Dihantar</th>
-                            <th width="13%" class="text-center">Hantar Notifikasi</th>
-                            <th width="5%" class="text-center">Fail</th>
-                          </tr></thead>
-                          <tbody>
-                            <tr>
-                              <td class="text-center">1</td>
-                              <td class="text-left">Indah Water Konsortium Sdn Bhd (IWK)</td>
-                              <td class="text-center">NOR HUWAINA BINTI BORHAN</td>
-                              <td class="text-center">-</td>
-                              <td class="text-center"><button class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#spModal">Hantar</button></td>
-                              <td class="text-center">-</td>
+                          <div id="general" class="panel-collapse collapse show">
+                              <div class="panel-body">
+                                  <table id="bills" class="table table-bordered table-striped">
+                                      <thead style="background-color: #03A9F4">
+                                          <tr><th width="3%" class="text-center">#</th>
+                                          <th width="9%" class="text-center">Tarikh Bil</th>
+                                          <th class="text-center">Tajuk Bil</th>
+                                          <th width="10%" class="text-center">Amaun (MYR)</th>
+                                          <th width="15%" class="text-center">Status</th>
+                                          <th width="13%" class="text-center">Nombor Bil</th>
+                                          <th width="5%" class="text-center">Fail</th>
+                                                                              <th width="10%" class="text-center">&nbsp;</th>
+                                                                          </tr></thead>
+                                      <tbody>
+                                                                              <tr>
+                                              <td class="text-center">1</td>
+                                              <td class="text-center"><div style="display:none">20200629</div>29-06-2020</td>
+                                              <td class="text-left">Fi Permohonan Pindaan Pelan Kerja Tanah, Jalan dan Perparitan</td>
+                                              <td class="text-center">780.00</td>
+                                              <td class="text-center">Bayaran Penuh</td>
+                                              <td class="text-center">MPKj20200629001 </td>
 
-                              <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-left">Jabatan Pengairan Dan Saliran</td>
-                                <td class="text-center">SITI HAJAR BINTI ISMAIL</td>
-                                <td class="text-center">14/09/2020</td>
-                                <td class="text-center"><button class="btn btn-block btn-primary" disabled>Hantar</button></td>
+                                              <td class="text-center"><button title="Muat turun Bil"><a href="/staff/submissions/bill/2311/print" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
 
-                                <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-
-                              </tr>
-                            </tbody>
-                          </table>
-                          <div class="row">
-                            <div class="col-sm-12 text-center">
-                              <a href="" class="btn btn-primary">Daftar Agensi Baru</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-              <br> 
-          <div class="card">
-            <div class="alert alert-secondary">
-              <div class="panel-group">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <span style="text-decoration: underline">Senarai PSP Terlibat</span>
-                    </h4>
-                  </div>
-                  <div id="general" class="panel-collapse collapse show">
-                    <div class="panel-body">
-                      <table id="members" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="members_info">
-                                  <thead style="background-color: #03A9F4">
-                                    <tr role="row"><th width="25%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama: activate to sort column ascending" style="width: 172px;">Nama</th><th width="15%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Profession: activate to sort column ascending" style="width: 94px;">Profession</th><th width="45%" class="text-center sorting" tabindex="0" aria-controls="members" rowspan="1" colspan="1" aria-label="Nama Syarikat: activate to sort column ascending" style="width: 340px;">Nama Syarikat</th><th width="5%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="PSP" style="width: 35px;">PSP</th><th width="8%" class="text-center sorting_disabled" rowspan="1" colspan="1" aria-label="Info" style="width: 54px;">Info</th><th width="13%" class="text-center">Hantar Surat Iringan</th>
-                            <th width="5%" class="text-center">Fail</th></tr>
-                                  </thead>
-                                  <tbody>
-
-
-
-                                    <tr role="row" class="odd">
-                                      <td class="text-center">SAW HAN WOEI</td>
-                                      <td class="text-center">Jurutera Awam</td>
-                                      <td class="text-center">JS WARISAN SDN BHD</td>
-                                      <td class="text-center"> Ya </td>
-                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember1">Info</button></td>
-                                      <td class="text-center"><button class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#spModal">Hantar</button></td>
-                              <td class="text-center">-</td>
-                                      
-                                    </tr><tr role="row" class="even">
-                                      <td class="text-center">LEE YU KHEN</td>
-                                      <td class="text-center">Perancang Bandar</td>
-                                      <td class="text-center">JURURANCANG LYK</td>
-                                      <td class="text-center"> Tidak</td>
-                                      <td class="text-center"><button id="moveleft" type="button" data-toggle="modal" data-target="#submissionMember2">Info</button></td>
-                                      <td class="text-center"><button class="btn btn-block btn-primary" disabled>Hantar</button></td>
-
-                                <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-                                     
-                                    </tr></tbody>
+                                                                                                                                              <td width="15%" class="text-center">Bil Selesai</td>
+                                                                                                                                      </tr>
+                                                                                                              </tbody>
                                   </table>
-                         
-                        </div>
+                                                                      <div class="row">
+                                          <div class="col-sm-12 text-center">
+                                              <a href="/staff/submissions/bill/6575/adhoc" class="btn btn-primary">Daftar Bil Baru</a>
+                                          </div>
+                                      </div>
+                                                              </div>
+                          </div>
                       </div>
-                    </div>
                   </div>
-                </div>
-              </div>                      
+              </div>
+          </div>
 
-    </div>
+          <div class="card">
+              <div class="alert alert-secondary">
+                  <div class="panel-group">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                              <h4 class="panel-title">
+                                  <span style="text-decoration: underline">Senarai Resit Pembayaran</span>
+                              </h4>
+                          </div>
+                          <div id="general" class="panel-collapse collapse show">
+                              <div class="panel-body">
 
-  </section>
+                                  <table id="receipts" class="table table-bordered table-striped">
+                                      <thead style="background-color: #03A9F4">
+                                      <tr>
+                                          <th width="5%" class="text-center">#</th>
+                                          <th width="20%" class="text-center">Tarikh &amp; Masa Bayaran</th>
+                                          <th width="20%" class="text-center">Nombor Bil</th>
+                                          <th width="25%" class="text-center">Nombor Resit</th>
+                                          <th width="15%" class="text-center">Amaun</th>
+                                          <th width="15%" class="text-center">Muat Turun Resit</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                                                              <tr>
+                                              <td class="text-center">1</td>
+                                              <td class="text-center">29 Jun 2020 14:17:36</td>
+                                              <td class="text-center">MPKj20200629001</td>
+                                              <td class="text-left">D13200601214</td>
+                                              <td class="text-center">780.00</td>
+                                              <td class="text-center"><button title="Muat turun Resit">
+                                                                                                  <a href="/staff/submissions/receipt/2007/download" target="_blank"><i class="uil uil-file-download-alt"></i></a>
+                                                                                              </button></td>
+                                          </tr>
+                                                                                                              </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-</div>
+          </div>
+    
 <footer class="footer text-center" style="display:none">
   Dibangunkan bersama oleh Perbadanan Putrajaya dan <a href="https://basicinception.com" style="color:#fff">Basic Inception</a>.
-</footer>    </div>
+</footer>    
 
 </div>
 
@@ -698,7 +531,7 @@ Kebenaran Merancang
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">Surat Edaran Notifikasi</h4>
+            <h4 class="modal-title">Surat Lampiran Perbaharui/Pindaan</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
           <div class="modal-body">
@@ -711,8 +544,8 @@ Kebenaran Merancang
 
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Hantar</button>
-            <button type="button" class="btn btn-warning" aria-hidden="true" data-dismiss="modal">Tutup</button>
+            
+            <button type="button" class="btn btn-default" aria-hidden="true" data-dismiss="modal">Tutup</button>
           </div>
         </div>
       </div>

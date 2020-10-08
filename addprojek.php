@@ -215,8 +215,8 @@ Kebenaran Merancang
                                 </dd>
                             </dl>
                             <div class="text-center">
-                                <input type="submit" class="btn btn-primary" value="Daftar">
-                                <a href="http://osc3plus.test:8080/staff/sub-groups/project/list" class="btn btn-danger">Batal</a>
+                                <a href="senaraiprojek-osc.php" class="btn btn-primary" value="">Daftar</a>
+                                <a href="#" class="btn btn-danger">Batal</a>
                             </div>
                         </form>
                     </div>

@@ -76,17 +76,20 @@
                 <td colspan="4" class="text-left" style="font-weight: bold; text-decoration: underline">SEMUA AGENSI</td>
             </tr>
             <tr>
-                <td class="text-center"></td>
+                <td class="text-center">
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>BORANG B</td>
-                 <td nowrap="">BRG_B_*.PDF</td>
+                 <td nowrap="">BRG_B</td>
                  <td nowrap="">
                  </td>
              </tr>
              <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>RESIT BAYARAN KUMPULAN WANG PERKHIDMATAN KEMAJUAN (ISF)</td>
-                 <td nowrap="">RESIT_ISF_*.PDF</td>
+                 <td nowrap="">RESIT_ISF</td>
                  <td nowrap="">
                  </td>
              </tr>
@@ -95,55 +98,61 @@
                     <i class="fa fa-asterisk text-danger"></i>
                 </td>
                 <td>KELULUSAN KEBENARAN MERANCANG YANG MASIH SAH</td>
-                <td nowrap="">KEBENARAN_MERANCANG_*.PDF</td>
+                <td nowrap="">KEBENARAN_MERANCANG</td>
                 <td nowrap="">
                 </td>
             </tr>
             <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>KELULUSAN PELAN JALAN DAN PARIT YANG MASIH SAH</td>
-                 <td nowrap="">PELAN_JALAN_DAN_PARIT_*.PDF</td>
+                 <td nowrap="">PELAN_JALAN_DAN_PARIT</td>
                  <td nowrap="">
                  </td>
              </tr>
              <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>KELULUSAN PELAN KERJA TANAH YANG MASIH SAH</td>
-                 <td nowrap="">PELAN_KERJA_TANAH_*.PDF</td>
+                 <td nowrap="">PELAN_KERJA_TANAH</td>
                  <td nowrap="">
                  </td>
              </tr>
              <tr>
                 <td class="text-center">
-                 </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>PELAN PANCANG TANDA (SETTING OUT)</td>
-                 <td nowrap="">PELAN_PANCANG_TANDA_*.PDF</td>
+                 <td nowrap="">PELAN_PANCANG_TANDA</td>
                  <td nowrap="">
                  </td>
              </tr>
              <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>PELAN STRUKTUR TERPERINCI (RC) SERTA KIRAAN STRUKTUR</td>
-                 <td nowrap="">PELAN_RC_*.PDF</td>
+                 <td nowrap="">PELAN_RC</td>
                  <td nowrap="">
                  </td>
              </tr>
              <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>SURAT KELULUSAN/ NO. RUJUKAN PERMIT SEMENTARA</td>
-                 <td nowrap="">SURAT_PERMIT_*.PDF</td>
+                 <td nowrap="">SURAT_PERMIT</td>
                  <td nowrap="">
                  </td>
              </tr>
             <tr>
                 <td class="text-center">
-                 <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
+                    <i class="fa fa-asterisk text-danger"></i>
+                </td>
                  <td>BORANG PERAKUAN PELANTIKAN SYARIKAT PEMUNGUTAN SISA PEPEJAL PEMBINAAN BERLESEN</td>
-                 <td nowrap="">BORANG_PERAKUAN_SYARIKAT_PEMUNGUTAN.PDF</td>
+                 <td nowrap="">BORANG_PERAKUAN_SYARIKAT_PEMUNGUTAN</td>
                  <td nowrap="">
                  </td>
              </tr>
@@ -152,7 +161,7 @@
                     <i class="fa fa-asterisk text-danger"></i>
                 </td>
                 <td>JADUAL PELAKSAAN PROJEK (PROJECT SCHEDULE)</td>
-                <td nowrap="">JADUAL_PROJEK.PDF</td>
+                <td nowrap="">JADUAL_PROJEK</td>
                 <td nowrap="">
                 </td>
             </tr>
@@ -161,7 +170,7 @@
                     <i class="fa fa-asterisk text-danger"></i>
                 </td>
                 <td>SENARAI PERUNDING PROJEK</td>
-                <td nowrap="">SENARAI_PERUNDING.PDF</td>
+                <td nowrap="">SENARAI_PERUNDING</td>
                 <td nowrap="">
                 </td>
             </tr>

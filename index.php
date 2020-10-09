@@ -22,38 +22,38 @@
 		<div class="col-4 my-3">
 			<H2>User: SP</H2>
 			<ul class="list-group">
-			  <li target="_blank" class="list-group-item"><a href="dashboard-sp.php">Dashboard</a></li>
-			  <li target="_blank" class="list-group-item"><a href="senaraiprojek-sp.php">Senarai Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatprojek-sp.php">Maklumat Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="lampirankerjabangunan.php">Lampiran Kerja Bangunan</a></li>
-			  <li target="_blank" class="list-group-item"><a href="lampirankerjatanah.php">Lampiran Kerja Tanah</a></li>
-			  <li target="_blank" class="list-group-item"><a href="semak.php">Semak dan Hantar Borang B</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatprojek-sp-p4.php">Maklumat Projek Proses 4</a></li>
-			  <li target="_blank" class="list-group-item"><a href="notisbertulis.php">Notis Bertulis</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatfi.php">Maklumat Kompaun</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatprojek-sp-p6.php">Maklumat Projek Proses 6</a></li>
-			  <li target="_blank" class="list-group-item"><a href="lampiranccc.php">Lampiran CCC</a></li>
-			  <li target="_blank" class="list-group-item"><a href="semak-p6.php">Semak dan Hantar Lampiran CCC</a></li>
+			  <li class="list-group-item"><a target="_blank" href="dashboard-sp.php">Dashboard</a></li>
+			  <li class="list-group-item"><a target="_blank" href="senaraiprojek-sp.php">Senarai Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatprojek-sp.php">Maklumat Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="lampirankerjabangunan.php">Lampiran Kerja Bangunan</a></li>
+			  <li class="list-group-item"><a target="_blank" href="lampirankerjatanah.php">Lampiran Kerja Tanah</a></li>
+			  <li class="list-group-item"><a target="_blank" href="semak.php">Semak dan Hantar Borang B</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatprojek-sp-p4.php">Maklumat Projek Proses 4</a></li>
+			  <li class="list-group-item"><a target="_blank" href="notisbertulis.php">Notis Bertulis</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatfi.php">Maklumat Kompaun</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatprojek-sp-p6.php">Maklumat Projek Proses 6</a></li>
+			  <li class="list-group-item"><a target="_blank" href="lampiranccc.php">Lampiran CCC</a></li>
+			  <li class="list-group-item"><a target="_blank" href="semak-p6.php">Semak dan Hantar Lampiran CCC</a></li>
 			</ul>
 		</div>
 		<div class="col-4 my-3">
 			<H2>User: OSC</H2>
 			<ul class="list-group">
-			  <li target="_blank" class="list-group-item"><a href="dashboard-osc.php">Dashboard</a></li>
-			  <li target="_blank" class="list-group-item"><a href="senaraiprojek-osc.php">Senarai Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatprojek-osc.php">Maklumat Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="aktivitiprojek-osc.php">Aktiviti</a></li>
-			  <li target="_blank" class="list-group-item"><a href="notifikasi-osc.php">Notifikasi Mula Kerja</a></li>
+			  <li class="list-group-item"><a target="_blank" href="dashboard-osc.php">Dashboard</a></li>
+			  <li class="list-group-item"><a target="_blank" href="senaraiprojek-osc.php">Senarai Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatprojek-osc.php">Maklumat Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="aktivitiprojek-osc.php">Aktiviti</a></li>
+			  <li class="list-group-item"><a target="_blank" href="notifikasi-osc.php">Notifikasi Mula Kerja</a></li>
 			</ul>
 		</div>
 		<div class="col-4 my-3">
 			<H2>User: ATD</H2>
 			<ul class="list-group">
-			  <li target="_blank" class="list-group-item"><a href="dashboard-atd.php">Dashboard</a></li>
-			  <li target="_blank" class="list-group-item"><a href="senaraiprojek-atd.php">Senarai Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatprojek-atd.php">Maklumat Projek</a></li>
-			  <li target="_blank" class="list-group-item"><a href="aktivitiprojek-atd.php">Aktiviti</a></li>
-			  <li target="_blank" class="list-group-item"><a href="maklumatkompaun.php">Maklumat Kompaun</a></li>
+			  <li class="list-group-item"><a target="_blank" href="dashboard-atd.php">Dashboard</a></li>
+			  <li class="list-group-item"><a target="_blank" href="senaraiprojek-atd.php">Senarai Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatprojek-atd.php">Maklumat Projek</a></li>
+			  <li class="list-group-item"><a target="_blank" href="aktivitiprojek-atd.php">Aktiviti</a></li>
+			  <li class="list-group-item"><a target="_blank" href="maklumatkompaun.php">Maklumat Kompaun</a></li>
 			</ul>
 		</div>
 	</div>

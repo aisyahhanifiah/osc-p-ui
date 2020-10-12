@@ -56,68 +56,104 @@
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="2"></td>
-                                                    <td>BORANG B KERJA BANGUNAN</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>RESIT BAYARAN KUMPULAN WANG PERKHIDMATAN KEMAJUAN (ISF)</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>KELULUSAN KEBENARAN MERANCANG YANG MASIH SAH</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>KELULUSAN PELAN JALAN DAN PARIT YANG MASIH SAH</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>KELULUSAN PELAN KERJA TANAH YANG MASIH SAH</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>PELAN PANCANG TANDA (SETTING OUT)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>PELAN STRUKTUR TERPERINCI (RC) SERTA KIRAAN STRUKTUR</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>SURAT KELULUSAN/ NO. RUJUKAN PERMIT SEMENTARA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>BORANG PERAKUAN PELANTIKAN SYARIKAT PEMUNGUTAN SISA PEPEJAL PEMBINAAN BERLESEN</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>JADUAL PELAKSAAN PROJEK (PROJECT SCHEDULE)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>SENARAI PERUNDING PROJEK</td>
+                                                </tr>
+                                                <tr><br></tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="1"></td>
+                                                    <td>BORANG B KERJA BANGUNAN</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="4"></td>
                                                     <td>RESIT BAYARAN PREMIUM TANAH</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>4</td>
+                                                    <td>14</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="6"></td>
                                                     <td>RESIT BAYARAN CAJ PEMAJUAN</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>5</td>
+                                                    <td>15</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="7"></td>
                                                     <td>RESIT BAYARAN KUMPULAN WANG PERKHIDMATAN KEMAJUAN (ISF)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>7</td>
+                                                    <td>16</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="9"></td>
                                                     <td>KELULUSAN KEBENARAN MERANCANG YANG MASIH SAH</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>9</td>
+                                                    <td>17</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="15"></td>
                                                     <td>KELULUSAN PELAN JALAN DAN PARIT YANG MASIH SAH</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>10</td>
-                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="16"></td>
-                                                    <td>KELULUSAN PELAN KERJA TANAH YANG MASIH SAH</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>11</td>
+                                                    <td>18</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="18"></td>
-                                                    <td>PELAN PANCANG TANDA (SETTING OUT)</td>
+                                                    <td>PELAN BANGUNAN YANG MASIH SAH</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>12</td>
+                                                    <td>19</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="20"></td>
                                                     <td>PELAN STRUKTUR TERPERINCI (RC) SERTA KIRAAN STRUKTUR</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>13</td>
+                                                    <td>20</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="22"></td>
                                                     <td>SURAT KELULUSAN/ NO. RUJUKAN PERMIT SEMENTARA</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>14</td>
+                                                    <td>21</td>
                                                     <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="23"></td>
                                                     <td>BORANG PERAKUAN PELANTIKAN SYARIKAT PEMUNGUTAN SISA PEPEJAL PEMBINAAN BERLESEN</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>15</td>
-                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="24"></td>
-                                                    <td>JADUAL PELAKSAAN PROJEK (PROJECT SCHEDULE)</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>16</td>
-                                                    <td class="text-center"><input type="checkbox" name="not_applicable[]" style="height:15px; width:15px" value="25"></td>
-                                                    <td>SENARAI PERUNDING PROJEK</td>
                                                 </tr>
                                                
                                             </tbody>

@@ -289,6 +289,84 @@ Kebenaran Merancang
                         </div>
                       </div>
                     </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="box box-default box-solid">
+                        <div class="box-header with-border">
+                          <h3 class="box-title">Senarai Permohonan Serentak</h3>
+                          <div class="box-tools">
+                            <div class="input-group input-group-sm" style="width: 40px;">
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="box-body form-horizontal">
+                          <div id="submissions_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="submissions_length"><label>Papar <select name="submissions_length" aria-controls="submissions" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> rekod per halaman</label></div></div><div class="col-sm-12 col-md-6"><div id="submissions_filter" class="dataTables_filter"><label>Carian<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="submissions"></label></div></div></div>
+
+
+
+                          <div class="row"><div class="col-sm-12"><table id="concurrents" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="concurrents_info">
+                                  <thead style="background-color: #03A9F4">
+                                  <tr role="row"><th class="text-center sorting" tabindex="0" aria-controls="concurrents" rowspan="1" colspan="1" aria-label="Tajuk: activate to sort column ascending" style="width: 437.8px;">Kod KPKT</th><th class="text-center sorting" width="20%" tabindex="0" aria-controls="concurrents" rowspan="1" colspan="1" aria-label="Fail Rujukan: activate to sort column ascending" style="width: 198.6px;">Fail Rujukan</th><th class="text-center sorting" width="20%" tabindex="0" aria-controls="concurrents" rowspan="1" colspan="1" aria-label="Jumlah Permohonan: activate to sort column ascending" style="width: 198.6px;">Jumlah Permohonan</th><th class="text-center sorting_disabled" width="10%" rowspan="1" colspan="1" aria-label="Info" style="width: 101.4px;">Info</th><th class="text-center sorting_disabled" width="10%" rowspan="1" colspan="1" aria-label="Buang" style="width: 102.4px;">Buang</th></tr>
+                                  </thead>
+                                  <tbody>
+                                           
+                                              
+                                  
+                                  <tr role="row" class="odd">
+                                          <td>A07</td>
+                                          <td class="text-center">MPKj/OSC/A07/1/10-2019</td>
+                                          <td class="text-center">4</td>
+                                          <td class="text-center"><a href="serentakdetail-osc.php">Info</a></td>
+                                                              <td class="text-center">
+                                                  <form method="post" action="http://128.199.195.92:8090/staff/sub-groups/concurrent/delete">
+                                                      <input type="hidden" name="_token" value="auMINvtjxhYZGVYCfHyVFoMxcNcvTDbF0BcoTUoN">                            <input type="hidden" name="concurrent_id" value="4">
+                                                      <button type="submit" class="btn btn-danger btn-sm" title=" Permohonan Serentak mengandungi permohonan dibawahnya dan tidak boleh dibuang " disabled=""><i class="fa fa-trash-alt"></i>
+                                                      </button>
+                                                  </form>
+                                              </td>
+                                                      </tr><tr role="row" class="even">
+                                          <td>A09</td>
+                                          <td class="text-center">MPKj.OSC/A07/3/9-2019</td>
+                                          <td class="text-center">3</td>
+                                          <td class="text-center"><a href="serentakdetail-osc.php">Info</a></td>
+                                                              <td class="text-center">
+                                                  <form method="post" action="http://128.199.195.92:8090/staff/sub-groups/concurrent/delete">
+                                                      <input type="hidden" name="_token" value="auMINvtjxhYZGVYCfHyVFoMxcNcvTDbF0BcoTUoN">                            <input type="hidden" name="concurrent_id" value="5">
+                                                      <button type="submit" class="btn btn-danger btn-sm" title=" Permohonan Serentak mengandungi permohonan dibawahnya dan tidak boleh dibuang " disabled=""><i class="fa fa-trash-alt"></i>
+                                                      </button>
+                                                  </form>
+                                              </td>
+                                                      </tr><tr role="row" class="odd">
+                                          <td>A01</td>
+                                          <td class="text-center">MPKj.OSC/A10/1/15-2019</td>
+                                          <td class="text-center">2</td>
+                                          <td class="text-center"><a href="serentakdetail-osc.php">Info</a></td>
+                                                              <td class="text-center">
+                                                  <form method="post" action="http://128.199.195.92:8090/staff/sub-groups/concurrent/delete">
+                                                      <input type="hidden" name="_token" value="auMINvtjxhYZGVYCfHyVFoMxcNcvTDbF0BcoTUoN">                            <input type="hidden" name="concurrent_id" value="20">
+                                                      <button type="submit" class="btn btn-danger btn-sm" title=" Permohonan Serentak mengandungi permohonan dibawahnya dan tidak boleh dibuang " disabled=""><i class="fa fa-trash-alt"></i>
+                                                      </button>
+                                                  </form>
+                                              </td>
+                                                      </tr></tbody>
+                              </table></div></div>
+
+
+
+
+                          <div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="submissions_info" role="status" aria-live="polite">Paparan halaman 1 dari 1 (2 jumlah rekod)</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="submissions_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="submissions_previous"><a href="#" aria-controls="submissions" data-dt-idx="0" tabindex="0" class="page-link">Sebelumnya</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="submissions" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="submissions_next"><a href="#" aria-controls="submissions" data-dt-idx="2" tabindex="0" class="page-link">Seterusnya</a></li></ul></div></div></div></div>
+                          </div>
+                            <div class="box-footer text-center">
+
+                              <a href="daftarserentak-osc.php" type="submit" class="btn btn-primary">Tambah Permohonan Serentak</a>
+
+                                                        </div>
+                          <form method="get" action="/staff/sub-groups/project/chart/60" id="chartform"></form>
+                        </div>
+                      </div>
+                    </div>
 
                     <div class="row">
                       <div class="col-lg-12">
@@ -631,8 +709,8 @@ Kebenaran Merancang
                             <td colspan="4" class="text-left" style="font-weight: bold; text-decoration: underline">SEMUA AGENSI</td>
                           </tr>
                           <tr>
-                            <td class="text-center"></td>
-                            <td>BORANG B</td>
+                            <td class="text-center">
+                             <i class="fa fa-asterisk text-danger"></i>                                                                    </td>                            <td>BORANG B</td>
                             <td nowrap="">BRG_B_*.PDF</td>
                             <td nowrap=""><a href="/staff/file/submission/MPKJ-KM20200701-003/S_RASMI_BRG_A_.pdf" target="_blank">
                               <b>BRG_B_*.PDF</b> - <small>143.93 KB</small><br>
@@ -674,7 +752,7 @@ Kebenaran Merancang
                          </tr>
                          <tr>
                           <td class="text-center">
-                          </td>
+                           <i class="fa fa-asterisk text-danger"></i>                                                                    </td>
                           <td>PELAN PANCANG TANDA (SETTING OUT)</td>
                           <td nowrap="">PELAN_PANCANG_TANDA_*.PDF</td>
                           <td nowrap="">
@@ -731,95 +809,7 @@ Kebenaran Merancang
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="alert alert-secondary">
-            <div class="panel-group">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title text-center">
-                    <a data-toggle="collapse" href="#no-attachments"><span style="text-decoration: underline">Senarai lampiran mandatori yang ditanda tidak berkaitan</span></a>
-                  </h4>
-                </div>
-                <div id="no-attachments" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th class="text-center">#</th>
-                          <th>Keterangan Fail</th>
-                          <th>Standard Nama Fail</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="text-center">1</td>
-                          <td>PELAN KUNCI/ PELAN LOKASI/ PELAN  KEBENARAN MERANCANG</td>
-                          <td>PELAN_KUNCI_LOKASI_KM_*.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">2</td>
-                          <td>GERAN/ SURAT HAKMILIK/ SURAT PERSETUJUAN BANK/ PERJANJIAN JUAL BELI/ SIJIL CARIAN RASMI</td>
-                          <td>GERAN_HAKMILIK_*.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">3</td>
-                          <td>PELAN UKUR TANAH/ PELAN KONTUR DAN PERINCIAN</td>
-                          <td>PELAN_UKUR_KONTUR_*.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">4</td>
-                          <td>LAPORAN CADANGAN PEMAJUAN (LCP)</td>
-                          <td>CADANGAN_PEMAJUAN.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">5</td>
-                          <td>RESIT CUKAI TAKSIRAN</td>
-                          <td>RESIT_CUKAI_TAKSIRAN.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">6</td>
-                          <td>DOKUMEN DAFTAR TUBUH SYARIKAT</td>
-                          <td>DAFTAR_SYARIKAT_*.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">7</td>
-                          <td>RESIT BAYARAN CUKAI TANAH/ CUKAI PETAK</td>
-                          <td>PTG_RESIT_CUKAI_TANAH.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">8</td>
-                          <td>BORANG ANNEX A</td>
-                          <td>JPS_ANNEX_A_*.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">9</td>
-                          <td>BORANG PENGESAHAN GEOLOGI TAPAK</td>
-                          <td>JMG_GEOLOGI_TAPAK.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">10</td>
-                          <td>PENGIRAAN ANGGARAN BEBAN ELEKTRIK MAKSIMA/ MAP ‘B’</td>
-                          <td>TNB_KIRAAN_BEBAN.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">11</td>
-                          <td>LAPORAN KEJURUTERAAN PEMBETUNGAN</td>
-                          <td>IWK_LAPORAN_PEMBENTUNGAN.PDF</td>
-                        </tr>
-                        <tr>
-                          <td class="text-center">12</td>
-                          <td>BORANG TEKNIKAL BEKALAN AIR</td>
-                          <td>AIR_BORANG_BEKALAN.PDF</td>
-                        </tr>
 
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="card">
           <div class="alert alert-secondary">
@@ -939,9 +929,14 @@ Kebenaran Merancang
                             </select>
                             <input type="hidden" name="submission_status_id" value="5">
                           </div>
-                          <div class="form-group complete" style="">
-
-                          </div>
+                          <div class="form-group incomplete" style="display: none">
+                                        <label for="" class="control-label">Nota Tidak Lengkap</label>
+                                        <textarea class="form-control incomplete-input" name="osc_remarks" required="" placeholder="Masukan sebab mengapa permohonan tidak lengkap" rows="5"></textarea>
+                                    </div>
+                                    <div class="form-group incomplete" style="display: none">
+                                        <label for="" class="control-label">Upload Dokumen</label>
+                                        <input type="file" class="form-control incomplete-input" name="original_filename">
+                                    </div>
                           <div class="form-group complete" style="">
                             <label for="" class="control-label">Fail Rujukan OSC</label>
 

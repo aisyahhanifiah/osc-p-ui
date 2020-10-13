@@ -131,38 +131,144 @@ Kebenaran Merancang
                   </div>
                   <div id="general" class="panel-collapse collapse show">
                     <div class="panel-body">
-                      <table id="bills" class="table table-bordered table-striped">
-                        <thead style="background-color: #03A9F4">
-                          <tr><th width="3%" class="text-center">#</th>
-                            <th class="text-center">Nama Agensi</th>
-                            <th class="text-center">Nama Penerima</th>
-                            <th width="15%" class="text-center">Tarikh Dihantar</th>
-                            <th width="13%" class="text-center">Hantar Notifikasi</th>
-                            <th width="5%" class="text-center">Fail</th>
-                          </tr></thead>
-                          <tbody>
-                            <tr>
-                              <td class="text-center">1</td>
-                              <td class="text-left">Jabatan Kawalan Bangunan</td>
-                              <td class="text-center">IR. FADILAH BT RAZALI</td>
-                              <td class="text-center">-</td>
-                              <td class="text-center"><button class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#spModal">Hantar</button></td>
-                              <td class="text-center">-</td>
+                      <table id="invites" class="table table-bordered table-striped">
+                                                          <thead style="background-color: #03A9F4">
+                                                          <tr>
+                                                              <th>Kumpulan Teknikal</th>
+                                                              <th width="10%" class="text-center">Ahli</th>
+                                                              <th width="15%" class="text-center">Hantar Notifikasi <input type="checkbox" id="tech_all_reviewers"></th>
+                                                              <th width="15%" class="text-center">Tarikh Hantar</th>
+                                                          </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                                                                  <tr>
+                                                                  <td><label for="" class="form-control-static">Jabatan Kawalan Bangunan (DR. HAJI AHMAD BIN SAIRI)</label></td>
+                                                                  <td class="text-center"><i class="fa fa-user-circle" title="DR. HAJI AHMAD BIN SAIRI
+                      SR. MOHD ADIB B. ADAM
+                      PN. ZAKIAH HANI BT AHMAD BUSTAMAM
+                      PN. IDA ROSLINDAWATI BT. HJ. MOHD SANI
+                      SR ZAKARIA B. EHSAN
+                      PN. KHAIRANI BT KAMALUDIN
+                      EN. IRWAN SUHARDI B. MOHD NEJIB
+                      PN. AZIANI HERNI BT. MOHD HAFNI
+                      EN. MOHD FIRDAUZ B. MD. AKHAHIR
+                      MOHD YUSRI NAIP
+                      PN. NORHASLINDA BT MOHD DAUD
+                      EN. SHAMSURI BIN SHAMSUDIN
+                      PN. NURUL FARHANAH BT OTHMAN
+                      EN. MOHD AMIRUL BIN UMAR BAKIR
+                      EN. MUHAMMAD ARIF BIN ARIFFIN
+                      EN. MUHAMMAD EZAT BIN AZIZI
+                      PN. SYAFIQAH BT SULAIMAN
+                      EN. MOHD FIRDAUS BIN SABRI
+                      EN. FADZIL BIN HUSSIN
+                      HASLINA BINTI HUSIN
+                      RAIS BIN JOHARI
+                      MUHAMAD FAIZAL BIN KAMA
+                      ZAINAB MARDHIAH BINTI KHAIRUDIN
+                      JALWA WARDAH ABD TALIB
+                      MOHAMMED MAZRUL BIN MOHAMMED MAHMUD
+                      "></i></td>
+                                                                  <td class="text-center"><input class="reviewer_checkbox" type="checkbox" name="reviewer_76" style="height:15px;width:15px;margin-top:8px">
+                                                                  </td>
+                                                                  <td class="text-center">
 
-                              <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-left">Jabatan Penilaian & Pengurusan Harta</td>
-                                <td class="text-center">EN. ABDUL HAIZUL FAIZAL B. ABDUL HAMID</td>
-                                <td class="text-center">14/09/2020</td>
-                                <td class="text-center"><button class="btn btn-block btn-primary" disabled>Hantar</button></td>
+                                                                                                                          <div class="input-group  text-center" style="">
+                                                                          <input type="text" id="release_date_76" name="release_date_76" class="form-control tech_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                                                  </td>
+                                                                 
+                                                              </tr>
+                                                                                                  <tr>
+                                                                  <td><label for="" class="form-control-static">Jabatan Kejuruteraan (IR. FADILAH BT RAZALI)</label></td>
+                                                                  <td class="text-center"><i class="fa fa-user-circle" title="IR. FADILAH BT RAZALI
+                      PN. NORLAILY BT RAHMAN
+                      ABDUL HALIM BIN SAMAH
+                      PN. NOR HASLINDA BT TAJUDIN
+                      MUHAMMAD AZRI BIN AZIZAN
+                      PN. SITI HAJAR AISHAH BT HAMZAH
+                      PN. ISNAHIDAYU BT ISMAIL
+                      PN SHANMUGA PPRENA
+                      EN RAZMAN BIN MANSOR
+                      "></i></td>
+                                                                  <td class="text-center"><input class="reviewer_checkbox" type="checkbox" name="reviewer_67" style="height:15px;width:15px;margin-top:8px">
+                                                                  </td>
+                                                                  <td class="text-center">
 
-                                <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
+                                                                                                                          <div class="input-group  text-center" style="">
+                                                                          <input type="text" id="release_date_67" name="release_date_67" class="form-control tech_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                                                  </td>
+                                                                 
+                                                                
+                                                              </tr>
+                                                                                                  <tr>
+                                                                  <td><label for="" class="form-control-static">Jabatan Penilaian &amp; Pengurusan Harta (EN. ABDUL HAIZUL FAIZAL B. ABDUL HAMID)</label></td>
+                                                                  <td class="text-center"><i class="fa fa-user-circle" title="EN. ABDUL HAIZUL FAIZAL B. ABDUL HAMID
+                      PN. NUR MAHIRAH BT AZIZ
+                      "></i></td>
+                                                                  <td class="text-center"><input class="reviewer_checkbox" type="checkbox" name="reviewer_75" style="height:15px;width:15px;margin-top:8px">
+                                                                  </td>
+                                                                  <td class="text-center">
 
-                              </tr>
-                            </tbody>
-                          </table>
+                                                                                                                          <div class="input-group  text-center" style="">
+                                                                          <input type="text" id="release_date_75" name="release_date_75" class="form-control tech_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                                                  </td>
+                                                                  
+                                                                 
+                                                              </tr>
+                                                                                                  <tr>
+                                                                  <td><label for="" class="form-control-static">Jabatan Perancangan Pembangunan (DATUK NIZAM BIN SAHARI DPSM)</label></td>
+                                                                  <td class="text-center"><i class="fa fa-user-circle" title="DATUK NIZAM BIN SAHARI DPSM
+                      TN. HJ. REDUAN BIN IDRIS
+                      PN. SAZZELINA BT. ISMAIL
+                      EN. LOW KAR YONG
+                      PN. NURSILAWATI BT. ABD. RAHIM
+                      PN. SUZIANALIZA BT MOHD YUNUS
+                      EN. MOHD SAFRI B. SAMSUNI
+                      EN. ABDUL RAHIM B MOHD TAHIR
+                      CIK NAZIRAH BT ABDUL RAHIM
+                      EN. ARIF B MOHAMED
+                      PN. NURUL SYUHADAK BT. AHMAD ZUHIR
+                      PN. HAFIZAH LIYANA BT ABU HASSAN
+                      EN. MOHD KAUSAR B. BANGI
+                      PN. SITI NORIYATI BT. PAKIN
+                      PN. NUR AZLIN BT ADNAN
+                      EN. KHAIRUL AZWAN B. KAMA
+                      EN. SARAVANAN A/L ANNAMALAI
+                      PN. NURUL HASHIMA BT. HAIRONI
+                      EN. NORSAINI B. MAT ISA
+                      "></i></td>
+                                                                  <td class="text-center"><input class="reviewer_checkbox" type="checkbox" name="reviewer_74" style="height:15px;width:15px;margin-top:8px">
+                                                                  </td>
+                                                                  <td class="text-center">
+
+                                                                                                                          <div class="input-group  text-center" style="">
+                                                                          <input type="text" id="release_date_74" name="release_date_74" class="form-control tech_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                                                  </td>
+                                                                 
+                                                                  
+                                                              </tr>
+                                                                                                  <tr>
+                                                                  <td><label for="" class="form-control-static">Jabatan Perkhidmatan Perbandaran dan Kesihatan (EN. MOHAMMAD  IZUDIN B. RAMLI)</label></td>
+                                                                  <td class="text-center"><i class="fa fa-user-circle" title="SAHRIL HAIR B AHMAD HAIRI
+                      PN. ZURAIDAH BT OSMAN
+                      EN. MOHD ZIKRI B IBRAHIM
+                      EN. MOHAMMAD  IZUDIN B. RAMLI
+                      "></i></td>
+                                                                  <td class="text-center"><input class="reviewer_checkbox" type="checkbox" name="reviewer_68" style="height:15px;width:15px;margin-top:8px">
+                                                                  </td>
+                                                                  <td class="text-center">
+
+                                                                                                                          <div class="input-group  text-center" style="">
+                                                                          <input type="text" id="release_date_68" name="release_date_68" class="form-control tech_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                                                  </td>
+                                                                 
+                                                                 
+                                                              </tr>
+                                                                                              </tbody>
+                                                      </table>
                           <div class="row">
                             <div class="col-sm-12 text-center">
+                              <button class="btn btn-primary  " >Hantar</button>
                               <a href="" class="btn btn-primary">Daftar Agensi Baru</a>
                             </div>
                           </div>
@@ -184,38 +290,66 @@ Kebenaran Merancang
                   </div>
                   <div id="general" class="panel-collapse collapse show">
                     <div class="panel-body">
-                      <table id="bills" class="table table-bordered table-striped">
-                        <thead style="background-color: #03A9F4">
-                          <tr><th width="3%" class="text-center">#</th>
-                            <th class="text-center">Nama Agensi</th>
-                            <th class="text-center">Nama Penerima</th>
-                            <th width="15%" class="text-center">Tarikh Dihantar</th>
-                            <th width="13%" class="text-center">Hantar Notifikasi</th>
-                            <th width="5%" class="text-center">Fail</th>
-                          </tr></thead>
-                          <tbody>
-                            <tr>
-                              <td class="text-center">1</td>
-                              <td class="text-left">Indah Water Konsortium Sdn Bhd (IWK)</td>
-                              <td class="text-center">NOR HUWAINA BINTI BORHAN</td>
-                              <td class="text-center">-</td>
-                              <td class="text-center"><button class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#spModal">Hantar</button></td>
-                              <td class="text-center">-</td>
-
-                              <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-left">Jabatan Pengairan Dan Saliran</td>
-                                <td class="text-center">SITI HAJAR BINTI ISMAIL</td>
-                                <td class="text-center">14/09/2020</td>
-                                <td class="text-center"><button class="btn btn-block btn-primary" disabled>Hantar</button></td>
-
-                                <td class="text-center"><button title="Muat turun Bil"><a href="#" target="_blank"> <i class="uil uil-file-alt"></i></a></button></td>
-
-                              </tr>
-                            </tbody>
-                          </table>
+                      <form action="/staff/review/agencyinvite/16836" method="post">
+                            <input type="hidden" name="_token" value="u2gurnxFlAlbn7FoKZ9eLFyccZYVrFeP4jdtw8py">                            <table id="invites" class="table table-bordered table-striped">
+                                    <thead style="background-color: #03A9F4">
+                                        <tr>
+                                            <th>Agensi</th>
+                                            <th width="15%" class="text-center">Hantar Notifikasi<input type="checkbox" id="agency_all_reviewers"></th>
+                                            <th width="15%" class="text-center">Tarikh Hantar</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                <tr>
+                                            <td><label for="" class="form-control-static">Indah Water Konsortium Sdn Bhd (IWK)</label></td>
+                                            <td class="text-center"><input class="agency_checkbox" type="checkbox" name="agency_8" style="height:15px;width:15px;margin-top:8px">
+                                            </td>
+                                            <td>
+                                                                                                        <div class="input-group  text-center" style="">
+                                                    <input type="text" id="release_dateA_8" name="release_date_8" class="form-control agency_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                            </td>
+                                        
+                                        </tr>
+                                                                                    <tr>
+                                            <td><label for="" class="form-control-static">Jabatan Alam Sekitar (JAS)</label></td>
+                                            <td class="text-center"><input class="agency_checkbox" type="checkbox" name="agency_1" style="height:15px;width:15px;margin-top:8px">
+                                            </td>
+                                            <td>
+                                                                                                        <div class="input-group  text-center" style="">
+                                                    <input type="text" id="release_dateA_1" name="release_date_1" class="form-control agency_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                            </td>
+                                          
+                                           
+                                        </tr>
+                                                                                    <tr>
+                                            <td><label for="" class="form-control-static">Jabatan Bomba Dan Penyelamat (BOMBA)</label></td>
+                                            <td class="text-center"><input class="agency_checkbox" type="checkbox" name="agency_15" style="height:15px;width:15px;margin-top:8px">
+                                            </td>
+                                            <td>
+                                                                                                        <div class="input-group  text-center" style="">
+                                                    <input type="text" id="release_dateA_15" name="release_date_15" class="form-control agency_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                            </td>
+                                       
+                                  
+                                        </tr>
+                                                                                    <tr>
+                                            <td><label for="" class="form-control-static">Jabatan Kerja Raya Malaysia (JKR)</label></td>
+                                            <td class="text-center"><input class="agency_checkbox" type="checkbox" name="agency_13" style="height:15px;width:15px;margin-top:8px">
+                                            </td>
+                                            <td>
+                                                                                                        <div class="input-group  text-center" style="">
+                                                    <input type="text" id="release_dateA_13" name="release_date_13" class="form-control agency_date" disabled=""><div class="input-group-append"><span class="btn btn-default" style="cursor:none"><i class="far fa-calendar"></i></span></div>                                                </div>
+                                            </td>
+                                     
+                                            
+                                        </tr>
+                                                                                </tbody>
+                                </table>
+            
+                        </form>
                           <div class="row">
                             <div class="col-sm-12 text-center">
+                              <button class="btn btn-primary  ">Hantar</button>
                               <a href="" class="btn btn-primary">Daftar Agensi Baru</a>
                             </div>
                           </div>
